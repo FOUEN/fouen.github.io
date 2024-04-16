@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Fouen</title>
+    <link>https://fouen.github.io/code/python/</link>
+    <description>Recent content in Python on Fouen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Fouen</copyright>
+    <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/code/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>F1Project</title>
+      <link>https://fouen.github.io/code/python/1711012841702-f1project/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/code/python/1711012841702-f1project/</guid>
+      <description>Fouen 1 Project # Este proyecto se trata de un paquete subido a pypi para reforzar lo que llevo aprendido en python, el cual crea simbolos de copyright.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/code/python/1711012841702-f1project/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
