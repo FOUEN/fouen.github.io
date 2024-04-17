@@ -99,7 +99,7 @@
     "keywords": ["bash","escaneos"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "76"
+    "wordCount": "347"
   }]
   </script>
 
@@ -609,7 +609,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-04-16 00:00:00 &#43;0000 UTC">16 April 2024</time><span class="px-2 text-primary-500">&middot;</span><span>76 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2024-04-16 00:00:00 &#43;0000 UTC">16 April 2024</time><span class="px-2 text-primary-500">&middot;</span><span>347 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -750,10 +750,14 @@
     class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#script-de-escaneo-de-equipos-en-la-red">Script de escaneo de equipos en la red</a>
       <ul>
-        <li><a href="#script-de-escaneo-de-equipos-en-la-red">Script de escaneo de equipos en la red</a></li>
-        <li><a href="#script-para-escanear-los-puertos-de-una-ip">Script para escanear los puertos de una IP</a></li>
+        <li><a href="#explicación-">Explicación 📄</a></li>
+      </ul>
+    </li>
+    <li><a href="#script-para-escanear-los-puertos-de-una-ip">Script para escanear los puertos de una IP</a>
+      <ul>
+        <li><a href="#explicación--1">Explicación 📄</a></li>
       </ul>
     </li>
   </ul>
@@ -769,10 +773,14 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#script-de-escaneo-de-equipos-en-la-red">Script de escaneo de equipos en la red</a>
       <ul>
-        <li><a href="#script-de-escaneo-de-equipos-en-la-red">Script de escaneo de equipos en la red</a></li>
-        <li><a href="#script-para-escanear-los-puertos-de-una-ip">Script para escanear los puertos de una IP</a></li>
+        <li><a href="#explicación-">Explicación 📄</a></li>
+      </ul>
+    </li>
+    <li><a href="#script-para-escanear-los-puertos-de-una-ip">Script para escanear los puertos de una IP</a>
+      <ul>
+        <li><a href="#explicación--1">Explicación 📄</a></li>
       </ul>
     </li>
   </ul>
@@ -834,7 +842,7 @@
 </blockquote>
 
 
-<h3 class="relative group">Script de escaneo de equipos en la red 
+<h2 class="relative group">Script de escaneo de equipos en la red 
     <div id="script-de-escaneo-de-equipos-en-la-red" class="anchor"></div>
     
     <span
@@ -843,7 +851,7 @@
             style="text-decoration-line: none !important;" href="#script-de-escaneo-de-equipos-en-la-red" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
+</h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
 </span></span></span><span class="line"><span class="cl"><span class="cp"></span>
 </span></span><span class="line"><span class="cl"><span class="k">for</span> i in <span class="k">$(</span>seq <span class="m">1</span> 254<span class="k">)</span><span class="p">;</span> <span class="k">do</span>
@@ -852,7 +860,30 @@
 </span></span><span class="line"><span class="cl"><span class="nb">wait</span>
 </span></span></code></pre></div>
 
-<h3 class="relative group">Script para escanear los puertos de una IP 
+<h3 class="relative group">Explicación 📄 
+    <div id="explicaci%C3%B3n-" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#explicaci%C3%B3n-" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<blockquote>
+<p><code>for i in $(seq 1 254); do:</code> Aquí comienza un bucle <code>for</code> que va desde el número <em>1 hasta el 254</em>. <code>seq 1 254</code> genera una secuencia de números del <em>1 al 254</em> y <code>for i in</code> itera sobre cada uno de estos números, asignándolos a la variable <strong>i</strong></p>
+</blockquote>
+<blockquote>
+<p><code>(timeout 1 bash -c &quot;ping -c 1 192.168.15.$i&quot; &amp;&gt;/dev/null) &amp;&amp; echo &quot;la IP 192.168.15.$i esta activa&quot; &amp;</code>: Dentro del bucle <strong>for</strong>, se ejecuta el comando <strong>ping</strong> para enviar un solo paquete a cada dirección IP en la red, <strong>desde 192.168.15.1 hasta 192.168.15.254</strong>. <code>timeout 1</code> limita la ejecución de ping a 1 segundo. <code>&amp;&amp;</code>: Si el comando ping tiene éxito, entonces se imprime un mensaje que indica que la IP está activa</p>
+</blockquote>
+<blockquote>
+<p><code>done</code>: Indica el final del bucle <strong>for</strong>.
+<code>wait</code>: Espera a que todos los procesos en segundo plano finalicen antes de terminar la ejecución del script</p>
+</blockquote>
+<hr>
+
+
+<h2 class="relative group">Script para escanear los puertos de una IP 
     <div id="script-para-escanear-los-puertos-de-una-ip" class="anchor"></div>
     
     <span
@@ -861,7 +892,7 @@
             style="text-decoration-line: none !important;" href="#script-para-escanear-los-puertos-de-una-ip" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
+</h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
 </span></span></span><span class="line"><span class="cl"><span class="cp"></span>
 </span></span><span class="line"><span class="cl"><span class="nb">read</span> -p <span class="s2">&#34;Que IP quieres escanear: &#34;</span> IP
@@ -872,6 +903,31 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">wait</span>
 </span></span></code></pre></div>
+
+<h3 class="relative group">Explicación 📄 
+    <div id="explicaci%C3%B3n--1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#explicaci%C3%B3n--1" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<blockquote>
+<p><code>read -p &quot;Que IP quieres escanear: &quot; IP</code>: Solicita al usuario que introduzca la dirección IP que desea escanear y guarda la entrada en la variable IP</p>
+</blockquote>
+<blockquote>
+<p><code>for port in $(seq 1 65535); do</code>: Inicia un bucle for que itera sobre todos los números de puerto del <strong>1 al 65535</strong>.</p>
+</blockquote>
+<blockquote>
+<p><code>(echo &quot;&quot; &gt; /dev/tcp/$IP/$port) &amp;&gt;/dev/null &amp;&amp; echo &quot;El puerto $port esta abierto&quot;</code>: Dentro del bucle for, se intenta abrir una conexión a través del puerto especificado utilizando el protocolo TCP.<code>&amp;&amp;</code>: Si la conexión tiene éxito, se imprime un mensaje indicando que el puerto está abierto.</p>
+</blockquote>
+<blockquote>
+<p><code>done</code>: Indica el final del bucle <strong>for</strong>.
+<code>wait</code>: Espera a que todos los procesos en segundo plano finalicen antes de terminar la ejecución del script</p>
+</blockquote>
+
         </div>
                 
         
