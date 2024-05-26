@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PicoCTF on Fouen</title>
+    <link>https://fouen.github.io/tags/picoctf/</link>
+    <description>Recent content in PicoCTF on Fouen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Fouen</copyright>
+    <lastBuildDate>Sun, 26 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/tags/picoctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CaixaBank</title>
+      <link>https://fouen.github.io/ctf/caixabank/</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/ctf/caixabank/</guid>
+      <description>Resoluciones de CTF&amp;rsquo;s</description>
+      
+    </item>
+    
+    <item>
+      <title>CTF</title>
+      <link>https://fouen.github.io/ctf/</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/ctf/</guid>
+      <description>Resoluciones de CTF&amp;rsquo;s</description>
+      
+    </item>
+    
+    <item>
+      <title>CTF_07</title>
+      <link>https://fouen.github.io/ctf/caixabank/ctf_07/</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/ctf/caixabank/ctf_07/</guid>
+      <description>Resoluciones de CTF&amp;rsquo;s</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/ctf/caixabank/ctf_07/featured.png" />
+    </item>
+    
+    <item>
+      <title>picoCTF</title>
+      <link>https://fouen.github.io/ctf/picoctf/</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/ctf/picoctf/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

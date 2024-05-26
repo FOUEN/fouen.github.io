@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://fouen.github.io/ctf/caixabank/</loc>
+    <lastmod>2024-05-26T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fouen.github.io/ctf/</loc>
+    <lastmod>2024-05-26T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fouen.github.io/ctf/caixabank/ctf_07/</loc>
+    <lastmod>2024-05-26T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fouen.github.io/</loc>
+    <lastmod>2024-05-26T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fouen.github.io/ctf/picoctf/</loc>
+    <lastmod>2024-05-26T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fouen.github.io/code/bash/</loc>
     <lastmod>2024-04-16T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -10,12 +40,6 @@
   </url>
   <url>
     <loc>https://fouen.github.io/code/</loc>
-    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fouen.github.io/</loc>
     <lastmod>2024-04-16T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

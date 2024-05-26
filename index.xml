@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Fouen</copyright>
-    <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CTF_07</title>
+      <link>https://fouen.github.io/ctf/caixabank/ctf_07/</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/ctf/caixabank/ctf_07/</guid>
+      <description>Resoluciones de CTF&amp;rsquo;s</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/ctf/caixabank/ctf_07/featured.png" />
+    </item>
+    
     <item>
       <title>Scripts de escaneo</title>
       <link>https://fouen.github.io/code/bash/escaneo/</link>
