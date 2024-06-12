@@ -7,7 +7,87 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Fouen</copyright>
-    <lastBuildDate>Sun, 26 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Easy</title>
+      <link>https://fouen.github.io/tags/easy/</link>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/easy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hack My VM</title>
+      <link>https://fouen.github.io/tags/hack-my-vm/</link>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/hack-my-vm/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hack the Box</title>
+      <link>https://fouen.github.io/tags/hack-the-box/</link>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/hack-the-box/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Headless</title>
+      <link>https://fouen.github.io/tags/headless/</link>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/headless/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HTB</title>
+      <link>https://fouen.github.io/tags/htb/</link>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/htb/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Try Hack Me</title>
+      <link>https://fouen.github.io/tags/try-hack-me/</link>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/try-hack-me/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Writeup</title>
+      <link>https://fouen.github.io/tags/writeup/</link>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/writeup/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CaixaBank</title>
+      <link>https://fouen.github.io/tags/caixabank/</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/caixabank/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>CTF</title>
       <link>https://fouen.github.io/tags/ctf/</link>
@@ -19,41 +99,11 @@
     </item>
     
     <item>
-      <title>Hack My VM</title>
-      <link>https://fouen.github.io/tags/hack-my-vm/</link>
-      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://fouen.github.io/tags/hack-my-vm/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Hack the Box</title>
-      <link>https://fouen.github.io/tags/hack-the-box/</link>
-      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://fouen.github.io/tags/hack-the-box/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>PicoCTF</title>
       <link>https://fouen.github.io/tags/picoctf/</link>
       <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
       
       <guid>https://fouen.github.io/tags/picoctf/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Try Hack Me</title>
-      <link>https://fouen.github.io/tags/try-hack-me/</link>
-      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://fouen.github.io/tags/try-hack-me/</guid>
       <description></description>
       
     </item>
@@ -94,16 +144,6 @@
       <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://fouen.github.io/tags/cybersecurity/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Writeup</title>
-      <link>https://fouen.github.io/tags/writeup/</link>
-      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://fouen.github.io/tags/writeup/</guid>
       <description></description>
       
     </item>

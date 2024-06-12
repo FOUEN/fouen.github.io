@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Headless on Fouen</title>
+    <link>https://fouen.github.io/tags/headless/</link>
+    <description>Recent content in Headless on Fouen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Fouen</copyright>
+    <lastBuildDate>Thu, 13 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/tags/headless/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Headless</title>
+      <link>https://fouen.github.io/writeup/htb/easy/headless/</link>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/writeup/htb/easy/headless/</guid>
+      <description>Reconocimiento # Nmap # Escaneamos la maquina para ver que puertos tiene abiertos;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/htb/easy/headless/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

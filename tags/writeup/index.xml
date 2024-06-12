@@ -7,45 +7,65 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Fouen</copyright>
-    <lastBuildDate>Wed, 03 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/tags/writeup/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/tags/writeup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Easy</title>
+      <link>https://fouen.github.io/writeup/htb/easy/</link>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/writeup/htb/easy/</guid>
+      <description>Resoluciones Easy de Hack the Box</description>
+      
+    </item>
+    
+    <item>
+      <title>Headless</title>
+      <link>https://fouen.github.io/writeup/htb/easy/headless/</link>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/writeup/htb/easy/headless/</guid>
+      <description>Reconocimiento # Nmap # Escaneamos la maquina para ver que puertos tiene abiertos;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/htb/easy/headless/featured.png" />
+    </item>
+    
     <item>
       <title>Hack The Box</title>
-      <link>https://fouen.github.io/cybersecurity/htb/</link>
+      <link>https://fouen.github.io/writeup/htb/</link>
       <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/cybersecurity/htb/</guid>
+      <guid>https://fouen.github.io/writeup/htb/</guid>
       <description>Esta es la sección de resolición de maquinas de Hack The Box, subire las resoluciones de las maquinas de Hack The Box</description>
       
     </item>
     
     <item>
       <title>Try Hack Me</title>
-      <link>https://fouen.github.io/cybersecurity/tryhackme/</link>
+      <link>https://fouen.github.io/writeup/tryhackme/</link>
       <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/cybersecurity/tryhackme/</guid>
+      <guid>https://fouen.github.io/writeup/tryhackme/</guid>
       <description>Esta es la sección de resolición de maquinas de Try Hack Me, subire las resoluciones de las maquinas de Try Hack Me</description>
       
     </item>
     
     <item>
       <title>HackMyVm</title>
-      <link>https://fouen.github.io/cybersecurity/hackmyvm/</link>
+      <link>https://fouen.github.io/writeup/hackmyvm/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/cybersecurity/hackmyvm/</guid>
+      <guid>https://fouen.github.io/writeup/hackmyvm/</guid>
       <description>Esta es la sección de resolición de maquinas de HackMyVm, subire las resoluciones de las maquinas de HackMyVm</description>
       
     </item>
     
     <item>
       <title>🟢Friendly</title>
-      <link>https://fouen.github.io/cybersecurity/hackmyvm/friendly/</link>
+      <link>https://fouen.github.io/writeup/hackmyvm/friendly/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/cybersecurity/hackmyvm/friendly/</guid>
+      <guid>https://fouen.github.io/writeup/hackmyvm/friendly/</guid>
       <description>Esta es la resolución de la maquina Friendly</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/cybersecurity/hackmyvm/friendly/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/hackmyvm/friendly/featured.png" />
     </item>
     
   </channel>

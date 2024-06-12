@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Fouen</copyright>
-    <lastBuildDate>Sun, 26 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Headless</title>
+      <link>https://fouen.github.io/writeup/htb/easy/headless/</link>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/writeup/htb/easy/headless/</guid>
+      <description>Reconocimiento # Nmap # Escaneamos la maquina para ver que puertos tiene abiertos;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/htb/easy/headless/featured.png" />
+    </item>
+    
     <item>
       <title>CTF_07</title>
       <link>https://fouen.github.io/ctf/caixabank/ctf_07/</link>
@@ -30,12 +40,12 @@
     
     <item>
       <title>🟢Friendly</title>
-      <link>https://fouen.github.io/cybersecurity/hackmyvm/friendly/</link>
+      <link>https://fouen.github.io/writeup/hackmyvm/friendly/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/cybersecurity/hackmyvm/friendly/</guid>
+      <guid>https://fouen.github.io/writeup/hackmyvm/friendly/</guid>
       <description>Esta es la resolución de la maquina Friendly</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/cybersecurity/hackmyvm/friendly/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/hackmyvm/friendly/featured.png" />
     </item>
     
     <item>

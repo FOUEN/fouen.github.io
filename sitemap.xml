@@ -3,6 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://fouen.github.io/writeup/</loc>
+    <lastmod>2024-06-13T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fouen.github.io/writeup/htb/easy/</loc>
+    <lastmod>2024-06-13T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fouen.github.io/writeup/htb/easy/headless/</loc>
+    <lastmod>2024-06-13T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fouen.github.io/</loc>
+    <lastmod>2024-06-13T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fouen.github.io/ctf/caixabank/</loc>
     <lastmod>2024-05-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -16,12 +40,6 @@
   </url>
   <url>
     <loc>https://fouen.github.io/ctf/caixabank/ctf_07/</loc>
-    <lastmod>2024-05-26T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fouen.github.io/</loc>
     <lastmod>2024-05-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -57,31 +75,25 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fouen.github.io/cybersecurity/</loc>
+    <loc>https://fouen.github.io/writeup/htb/</loc>
     <lastmod>2024-04-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fouen.github.io/cybersecurity/htb/</loc>
+    <loc>https://fouen.github.io/writeup/tryhackme/</loc>
     <lastmod>2024-04-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fouen.github.io/cybersecurity/tryhackme/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fouen.github.io/cybersecurity/hackmyvm/</loc>
+    <loc>https://fouen.github.io/writeup/hackmyvm/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fouen.github.io/cybersecurity/hackmyvm/friendly/</loc>
+    <loc>https://fouen.github.io/writeup/hackmyvm/friendly/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
