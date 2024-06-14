@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Fouen</copyright>
-    <lastBuildDate>Thu, 13 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Easy</title>
-      <link>https://fouen.github.io/tags/easy/</link>
-      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      <title>Cybersecurity</title>
+      <link>https://fouen.github.io/tags/cybersecurity/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/tags/easy/</guid>
+      <guid>https://fouen.github.io/tags/cybersecurity/</guid>
       <description></description>
       
     </item>
@@ -21,7 +21,7 @@
     <item>
       <title>Hack My VM</title>
       <link>https://fouen.github.io/tags/hack-my-vm/</link>
-      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://fouen.github.io/tags/hack-my-vm/</guid>
       <description></description>
@@ -31,9 +31,59 @@
     <item>
       <title>Hack the Box</title>
       <link>https://fouen.github.io/tags/hack-the-box/</link>
-      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://fouen.github.io/tags/hack-the-box/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Plunk</title>
+      <link>https://fouen.github.io/tags/plunk/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/plunk/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Try Hack Me</title>
+      <link>https://fouen.github.io/tags/try-hack-me/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/try-hack-me/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Vulnhub</title>
+      <link>https://fouen.github.io/tags/vulnhub/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/vulnhub/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Writeup</title>
+      <link>https://fouen.github.io/tags/writeup/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/writeup/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Easy</title>
+      <link>https://fouen.github.io/tags/easy/</link>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/easy/</guid>
       <description></description>
       
     </item>
@@ -54,26 +104,6 @@
       <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://fouen.github.io/tags/htb/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Try Hack Me</title>
-      <link>https://fouen.github.io/tags/try-hack-me/</link>
-      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://fouen.github.io/tags/try-hack-me/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Writeup</title>
-      <link>https://fouen.github.io/tags/writeup/</link>
-      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://fouen.github.io/tags/writeup/</guid>
       <description></description>
       
     </item>
@@ -134,16 +164,6 @@
       <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://fouen.github.io/tags/python/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Cybersecurity</title>
-      <link>https://fouen.github.io/tags/cybersecurity/</link>
-      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://fouen.github.io/tags/cybersecurity/</guid>
       <description></description>
       
     </item>

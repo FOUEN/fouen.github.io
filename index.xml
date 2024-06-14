@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Fouen</copyright>
-    <lastBuildDate>Thu, 13 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plunk</title>
+      <link>https://fouen.github.io/writeup/vulnhub/plunk/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/writeup/vulnhub/plunk/</guid>
+      <description>Reconocimiento # Nmap # Primero vamos a escanear la red para ver que IP tenemos que atacar:</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/vulnhub/plunk/featured.png" />
+    </item>
+    
     <item>
       <title>Headless</title>
       <link>https://fouen.github.io/writeup/htb/easy/headless/</link>
