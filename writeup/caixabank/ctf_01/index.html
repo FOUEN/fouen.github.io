@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
   data-auto-appearance="false"><head>
-	<meta name="generator" content="Hugo 0.127.0">
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -9,18 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Fouen</title>
-  <meta name="title" content="Fouen" />
+  <title>CTF_01 &middot; Fouen</title>
+  <meta name="title" content="CTF_01 &middot; Fouen" />
   
-  <meta name="description" content="Pagina de Fouen" />
-  <meta name="keywords" content="Hack the Box, Try Hack Me, Hack My VM, " />
+  <meta name="description" content="Resoluciones de CTF&#39;s" />
+  <meta name="keywords" content="CTF, CaixaBank, Stego, " />
   
   
-  <link rel="canonical" href="https://fouen.github.io/" />
-  
-  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Fouen" />
-  
-  <link rel="alternate" type="application/json" href="/index.json" title="Fouen" />
+  <link rel="canonical" href="https://fouen.github.io/writeup/caixabank/ctf_01/" />
   
   
   
@@ -68,34 +63,53 @@
   
   
   
-  <meta property="og:url" content="https://fouen.github.io/">
+  <meta property="og:url" content="https://fouen.github.io/writeup/caixabank/ctf_01/">
   <meta property="og:site_name" content="Fouen">
-  <meta property="og:title" content="Pagina de Fouen">
-  <meta property="og:description" content="Pagina de Fouen">
+  <meta property="og:title" content="CTF_01">
+  <meta property="og:description" content="Resoluciones de CTF&#39;s">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="writeup">
+    <meta property="article:published_time" content="2024-06-17T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-06-17T00:00:00+00:00">
+    <meta property="article:tag" content="CTF">
+    <meta property="article:tag" content="CaixaBank">
+    <meta property="article:tag" content="Stego">
+    <meta property="og:image" content="https://fouen.github.io/writeup/caixabank/ctf_01/featured.png">
 
   
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Pagina de Fouen">
-  <meta name="twitter:description" content="Pagina de Fouen">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://fouen.github.io/writeup/caixabank/ctf_01/featured.png">
+  <meta name="twitter:title" content="CTF_01">
+  <meta name="twitter:description" content="Resoluciones de CTF&#39;s">
 
   
   <script type="application/ld+json">
-  {
+  [{
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": "https:\/\/fouen.github.io\/",
-    "name": "Fouen",
-    "description": "Soy un joven estudiante de informatica interesado en el mundo de la ciberseguridad, aqui subire proyectos en python y writeups de maquinas ",
+    "@type": "Article",
+    "articleSection": "Write-ups",
+    "name": "CTF_01",
+    "headline": "CTF_01",
+    "description": "Resoluciones de CTF\u0027s",
+    "abstract": "WRITEUP CTF CaixaBank Tech - RETO 1 # Competición CaixaBank Tech | Reto Esteganografía [1\/2] TESIS DEL DESAFÍO # Iniciamos el reto viendo la siguiente imagen.",
     "inLanguage": "en",
-    "url": "https:\/\/fouen.github.io\/",
-    
-    "publisher" : {
+    "url" : "https:\/\/fouen.github.io\/writeup\/caixabank\/ctf_01\/",
+    "author" : {
       "@type": "Person",
       "name": "Fouen"
-    }
-  }
+    },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-06-17T00:00:00\u002b00:00",
+    "datePublished": "2024-06-17T00:00:00\u002b00:00",
+    
+    "dateModified": "2024-06-17T00:00:00\u002b00:00",
+    
+    "keywords": ["CTF","CaixaBank","Stego"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "200"
+  }]
   </script>
 
 
@@ -593,136 +607,84 @@
   <div class="relative flex flex-col grow">
     <main id="main-content" class="grow">
       
+
+
+<article>
   
   
-    
-<article class="max-w-full prose dark:prose-invert">
-    <div class="relative">
-        <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
-        <div class="mx-auto max-w-7xl p-0">
-            <div class="relative sm:overflow-hidden">
-                <div class="fixed inset-x-0 top-0" style="z-index:-10">
-                    
-                    
-                        
-                            
-                        
-                    
-                    
-                    
-                    <img class="w-full h-[1000px] object-cover m-0 nozoom" src="/back6.jpg" role="presentation">
-                    <div
-                        class="absolute inset-0 h-[1000px] bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
-                    </div>
-                    <div
-                        class="opacity-60 absolute inset-0 h-[1000px] bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
-                    </div>
-                    
-                </div>
-                <div class="relative px-1 py-1 flex flex-col items-center justify-center text-center">
-                    
-                        
-                        
-                            
-                        
-                        
-                            
-                            <img class="mb-2 rounded-full h-36 w-36" width="144" height="144"
-                                alt="Fouen" src="/fotoperfil.jpg" />
-                        
-                    
-                    <h1 class="mb-2 text-4xl font-extrabold text-neutral-800 dark:text-neutral-200">
-                        Fouen
-                    </h1>
-                    
-                    <div class="mt-3 mb-10 text-2xl">
-                        
-                        <div class="flex flex-wrap">
-                            
-                            
-                            <a class="px-1 hover:text-primary-400 text-primary-800 dark:text-primary-200" href="https://www.linkedin.com/in/joel-guill%c3%a9n-5a2531254" target="_blank"
-                                aria-label="Linkedin" rel="me noopener noreferrer">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
-
-  </span>
-
-</a>
-                            
-                            
-                            
-                            <a class="px-1 hover:text-primary-400 text-primary-800 dark:text-primary-200" href="https://github.com/FOUEN" target="_blank"
-                                aria-label="Github" rel="me noopener noreferrer">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
-
-  </span>
-
-</a>
-                            
-                            
-                        </div>
-                        
-                    </div>
-                    <section class="prose dark:prose-invert">
-
-<h1 class="relative group">Bienvenido a mi página web! 
-    <div id="bienvenido-a-mi-p%C3%A1gina-web" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#bienvenido-a-mi-p%C3%A1gina-web" aria-label="Anchor">#</a>
-    </span>        
-    
-</h1>
-<p><code>Hola, me llamo Joel. Soy un chaval de 17 años interesado en el mundo de la ciberseguridad. Aquí podrás encontrar tanto write-ups de máquinas y CTFs como scripts o blogs de ciberseguridad.</code></p>
-</section>
-                </div>
-            </div>
-        </div>
-    </div>
-</article>
-<section>
-    
-
-
-
-
-
-<h2 class="mt-8 text-2xl font-extrabold mb-10">Recent</h2>
-
-
-  
-
-
-<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
   
   
-
-  <a href="/writeup/caixabank/ctf_01/" class="min-w-full">
-    
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+  
+  
         
-        <div class="w-full thumbnail_card nozoom" style="background-image:url(/writeup/caixabank/ctf_01/featured.png);"></div>
+            <div class="w-full h-36 md:h-56 lg:h-72 single_hero_basic nozoom" style="background-image:url(/writeup/caixabank/ctf_01/featured.png);"></div>
         
+    
+  
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
+    
+    <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+    
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/"
+      >Pagina de Fouen</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/writeup/"
+      >Write-ups</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/writeup/caixabank/"
+      >CaixaBank</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/writeup/caixabank/ctf_01/"
+      >CTF_01</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      CTF_01
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
 
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/writeup/caixabank/ctf_01/">CTF_01</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
 
 
 
 
+  
+  
 
 
 
@@ -750,14 +712,62 @@
 
 
 
+  
 
+
+
+  
 
 
 
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-06-17 00:00:00 &#43;0000 UTC">17 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>200 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  <time datetime="2024-06-17 00:00:00 &#43;0000 UTC">17 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>200 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+  
+    
+  
+  
+
+<span class="mb-[2px]">
+  <a
+    href="#/Writeup/CaixaBank/CTF_01/index.md"
+    class="text-lg hover:text-primary-500"
+    rel="noopener noreferrer"
+    target="_blank"
+    title="Edit content"
+    ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path fill="currentColor" d="M441 58.9L453.1 71c9.4 9.4 9.4 24.6 0 33.9L424 134.1 377.9 88 407 58.9c9.4-9.4 24.6-9.4 33.9 0zM209.8 256.2L344 121.9 390.1 168 255.8 302.2c-2.9 2.9-6.5 5-10.4 6.1l-58.5 16.7 16.7-58.5c1.1-3.9 3.2-7.5 6.1-10.4zM373.1 25L175.8 222.2c-8.7 8.7-15 19.4-18.3 31.1l-28.6 100c-2.4 8.4-.1 17.4 6.1 23.6s15.2 8.5 23.6 6.1l100-28.6c11.8-3.4 22.5-9.7 31.1-18.3L487 138.9c28.1-28.1 28.1-73.7 0-101.8L474.9 25C446.8-3.1 401.2-3.1 373.1 25zM88 64C39.4 64 0 103.4 0 152V424c0 48.6 39.4 88 88 88H360c48.6 0 88-39.4 88-88V312c0-13.3-10.7-24-24-24s-24 10.7-24 24V424c0 22.1-17.9 40-40 40H88c-22.1 0-40-17.9-40-40V152c0-22.1 17.9-40 40-40H200c13.3 0 24-10.7 24-24s-10.7-24-24-24H88z"/></svg>
+  </span>
+
+</span></a
+  >
+</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+<script type="text/javascript" src="/js/zen-mode.min.ccc8b2a0c4505216444ca25530c7328aa0bef94f43dabaf3e598e1b4271de9eec76c1cb35917471a4f7ccb8d84051b3acef42baa30724ac3a667fcf1fec4432a.js" integrity="sha512-zMiyoMRQUhZETKJVMMcyiqC&#43;&#43;U9D2rrz5ZjhtCcd6e7HbByzWRdHGk98y42EBRs6zvQrqjBySsOmZ/zx/sRDKg=="></script>
+
+<span class="mb-[2px]">
+    <span id="zen-mode-button"
+          class="text-lg hover:text-primary-500"
+          title="Enable zen mode"
+          data-title-i18n-disable="Enable zen mode"
+          data-title-i18n-enable="Disable zen mode">
+        <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+    <path fill="currentColor" d="M 12.980469 4 C 9.1204688 4 5.9804688 7.14 5.9804688 11 L 6 26 L 9.9804688 26 L 9.9804688 11 C 9.9804688 9.35 11.320469 8 12.980469 8 L 40.019531 8 C 41.679531 8 43.019531 9.35 43.019531 11 L 43.019531 39 C 43.019531 40.65 41.679531 42 40.019531 42 L 29 42 C 29 43.54 28.420938 44.94 27.460938 46 L 40.019531 46 C 43.879531 46 47.019531 42.86 47.019531 39 L 47.019531 11 C 47.019531 7.14 43.879531 4 40.019531 4 L 12.980469 4 z M 7 28 C 4.794 28 3 29.794 3 32 L 3 42 C 3 44.206 4.794 46 7 46 L 23 46 C 25.206 46 27 44.206 27 42 L 27 32 C 27 29.794 25.206 28 23 28 L 7 28 z M 7 32 L 23 32 L 23.001953 42 L 7 42 L 7 32 z"/>
+</svg>
+  </span>
+
+</span>
+    </span>
+</span>
   
 
   
@@ -826,726 +836,405 @@
 
 
 
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
     </div>
-  </a>
-  
-  
 
-  <a href="/writeup/picoctf/bloat.py/" class="min-w-full">
     
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-        
-        <div class="w-full thumbnail_card nozoom" style="background-image:url(/writeup/picoctf/bloat.py/featured.png);"></div>
-        
-      
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/writeup/picoctf/bloat.py/">bloat.py</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-06-15 00:00:00 &#43;0000 UTC">15 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>182 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
-  
-
-  
-  
-</div>
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ctf/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    CTF
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/picoctf/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    PicoCTF
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/bloat.py/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Bloat.py
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-  
-  
-
-  <a href="/writeup/picoctf/reverse/" class="min-w-full">
     
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-        
-        <div class="w-full thumbnail_card nozoom" style="background-image:url(/writeup/picoctf/reverse/featured.png);"></div>
-        
-      
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/writeup/picoctf/reverse/">Reverse</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-06-15 00:00:00 &#43;0000 UTC">15 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>63 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
-  
-
-  
-  
-</div>
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ctf/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    CTF
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/picoctf/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    PicoCTF
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/reverse/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Reverse
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-  
-  
-
-  <a href="/writeup/picoctf/safe-opener-2/" class="min-w-full">
     
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-        
-        <div class="w-full thumbnail_card nozoom" style="background-image:url(/writeup/picoctf/safe-opener-2/featured.png);"></div>
-        
-      
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/writeup/picoctf/safe-opener-2/">Safe Opener 2</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-06-15 00:00:00 &#43;0000 UTC">15 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>298 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
-  
-
-  
-  
-</div>
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ctf/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    CTF
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/picoctf/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    PicoCTF
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/safe-opener-2/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Safe Opener 2
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-  
-  
-
-  <a href="/writeup/picoctf/unpackme.py/" class="min-w-full">
     
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-        
-        <div class="w-full thumbnail_card nozoom" style="background-image:url(/writeup/picoctf/unpackme.py/featured.png);"></div>
-        
-      
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/writeup/picoctf/unpackme.py/">unpackme.py</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-06-15 00:00:00 &#43;0000 UTC">15 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>93 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
-  
-
-  
-  
-</div>
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ctf/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    CTF
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/picoctf/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    PicoCTF
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/unpackme.py/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Unpackme.py
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-  
-  
-
-  <a href="/writeup/vulnhub/plunk/" class="min-w-full">
     
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-        
-        <div class="w-full thumbnail_card nozoom" style="background-image:url(/writeup/vulnhub/plunk/featured.png);"></div>
-        
+
+    
       
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/writeup/vulnhub/plunk/">Plunk</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
+      
+<div class="flex author">
   
-
-
-
-
-
+    
+    
+      
+      <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
+      alt="Fouen" src="/fotoperfil.jpg" />
+    
   
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-06-14 00:00:00 &#43;0000 UTC">14 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>509 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
-  
-
-  
-  
-</div>
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/writeup/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Writeup
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/vulnhub/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Vulnhub
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/plunk/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Plunk
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
+  <div class="place-self-center">
+    
+    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+      Author
     </div>
-  </a>
-  
-</section>
+    <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+      Fouen
+    </div>
+    
+    
+    <div class="text-sm text-neutral-700 dark:text-neutral-400">Soy un joven informatico interesado en la ciberseguridad</div>
+    
+    <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://www.linkedin.com/in/joel-guill%c3%a9n-5a2531254"
+          target="_blank"
+          aria-label="Linkedin"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
 
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
 
+  </span>
 
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://github.com/FOUEN"
+          target="_blank"
+          aria-label="Github"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
 
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
 
+  </span>
 
-<div class="mt-10 flex justify-center">
-  <a href="/writeup">
-    <button
-      class="bg-transparent hover:text-primary-500 prose dark:prose-invert font-semibold hover:text-white py-2 px-4 border border-primary-500 hover:border-transparent rounded">
-      Show More
-    </button>
-  </a>
+</span></a
+        >
+      
+    
+  </div>
+
 </div>
+  </div>
+</div>
+    
 
+    
 
-</section>
+    
 
-<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+    
+    <div class="mb-5"></div>
+    
+  
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-10">
+
+         <details open class="toc-right mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#tesis-del-desafío">TESIS DEL DESAFÍO</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#tesis-del-desafío">TESIS DEL DESAFÍO</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+ 
 <script>
-    window.addEventListener('scroll', function (e) {
-        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-        var background_blur = document.getElementById('background-blur');
-        background_blur.style.opacity = (scroll / 300)
-    });
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = e.attr('id');
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+          
+            $(e).removeClass('active');
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+        
+        onScroll();
+      });
+    }
+  })();
 </script>
+   </div>
+      </div>
+      
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+
+
+        <div class="article-content max-w-prose mb-20">
+          
+
+<h1 class="relative group">WRITEUP CTF CaixaBank Tech - RETO 1 
+    <div id="writeup-ctf-caixabank-tech---reto-1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#writeup-ctf-caixabank-tech---reto-1" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    >Competición CaixaBank Tech | Reto Esteganografía [1/2]</span>
+</div>
+
+<p>
+
+
 
 
   
+  
+    
+  
+  
+    <figure>
+      
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        src="/writeup/caixabank/ctf_01/boca.jpg"
+        alt=""
+      />
+      
+      
+    </figure>
+  
+
+</p>
+
+
+<h2 class="relative group">TESIS DEL DESAFÍO 
+    <div id="tesis-del-desaf%C3%ADo" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#tesis-del-desaf%C3%ADo" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Iniciamos el reto viendo la siguiente imagen. En ella, se puede observar que en la boca falta una pieza. Se utilizaron varias herramientas para examinar los metadatos de la imagen y verificar si contenía algún archivo en su interior, pero no se obtuvieron resultados. Tras varias horas realizando otros retos de la competición, llegué a la conclusión de que la pieza que falta podría ser la contraseña para acceder a los archivos en el interior de la imagen principal. Así que busqué información acerca de la pieza que faltaba y era la número 35.</p>
+<p>Se utilizó la herramienta online Steganographic Decoder:</p>
+<p><a href="https://futureboy.us/stegano/decinput.html"   target="_blank">
+    https://futureboy.us/stegano/decinput.html</a></p>
+<p>
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        src="/writeup/caixabank/ctf_01/stego.jpg"
+        alt=""
+      />
+      
+      
+    </figure>
+  
+
+</p>
+<p>Si pulsamos el botón &ldquo;Submit&rdquo;, nos dará un resultado que, como podemos ver, tiene formato de flag encriptado.</p>
+<p>
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        src="/writeup/caixabank/ctf_01/stegoresult.jpg"
+        alt=""
+      />
+      
+      
+    </figure>
+  
+
+</p>
+<p>Una vez obtenida la flag encriptada, deberemos desencriptarla para que esté correctamente y se pueda entregar para obtener la puntuación en la competición. Para ello, utilizaremos una herramienta online de la página &ldquo;dCode&rdquo;.</p>
+<p><a href="https://www.dcode.fr/rot-cipher"   target="_blank">
+    https://www.dcode.fr/rot-cipher</a></p>
+<p>Una vez en la página, pondremos la flag codificada en el recuadro, pulsaremos el botón &ldquo;Decrypt&rdquo; y obtendremos el resultado en la parte izquierda de la pantalla.</p>
+<p>
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        src="/writeup/caixabank/ctf_01/finish.jpg"
+        alt=""
+      />
+      
+      
+    </figure>
+  
+
+</p>
+
+        </div>
+                
+        
+
+        
+
+          
+      </div>
+     
+    
+     <script>
+        var oid = "views_Writeup\/CaixaBank\/CTF_01\/index.md"
+        var oid_likes = "likes_Writeup\/CaixaBank\/CTF_01\/index.md"
+      </script>
+      
+      
+      
+      <script type="text/javascript" src="/js/page.min.f94e5beb747249fb2315a14fc6417e483411d48b59dc1376bbafa8c37fce65d397d5401be15c7461670ec7bb90ac2bf148d7d48eaf02f317cd9dc04d4851fd31.js" integrity="sha512-&#43;U5b63RySfsjFaFPxkF&#43;SDQR1ItZ3BN2u6&#43;ow3/OZdOX1UAb4Vx0YWcOx7uQrCvxSNfUjq8C8xfNncBNSFH9MQ=="></script>
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/writeup/caixabank/ctf_07/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >CTF_07</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-05-26 00:00:00 &#43;0000 UTC">26 May 2024</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+    
+  </footer>
+</article>
 
       <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
   <a href="#the-top"
