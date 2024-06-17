@@ -10,12 +10,12 @@
     <lastBuildDate>Sat, 15 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/tags/safe-opener-2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Safe Opener 2</title>
-      <link>https://fouen.github.io/ctf/picoctf/safe-opener-2/</link>
+      <link>https://fouen.github.io/writeup/picoctf/safe-opener-2/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/ctf/picoctf/safe-opener-2/</guid>
+      <guid>https://fouen.github.io/writeup/picoctf/safe-opener-2/</guid>
       <description>Safe Opener 2 # Description What can you do with this file?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/ctf/picoctf/safe-opener-2/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/picoctf/safe-opener-2/featured.png" />
     </item>
     
   </channel>

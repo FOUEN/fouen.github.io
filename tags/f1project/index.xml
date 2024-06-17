@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>F1Project on Fouen</title>
-    <link>https://fouen.github.io/tags/f1project/</link>
+    <link>http://localhost:1313/tags/f1project/</link>
     <description>Recent content in F1Project on Fouen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Fouen</copyright>
-    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/tags/f1project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/f1project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>F1Project</title>
-      <link>https://fouen.github.io/code/python/1711012841702-f1project/</link>
+      <link>http://localhost:1313/code/python/1711012841702-f1project/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/code/python/1711012841702-f1project/</guid>
+      <guid>http://localhost:1313/code/python/1711012841702-f1project/</guid>
       <description>Fouen 1 Project # Este proyecto se trata de un paquete subido a pypi para reforzar lo que llevo aprendido en python, el cual crea simbolos de copyright.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/code/python/1711012841702-f1project/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/code/python/1711012841702-f1project/featured.jpg" />
     </item>
     
   </channel>

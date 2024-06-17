@@ -10,70 +10,60 @@
     <lastBuildDate>Sat, 15 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/tags/picoctf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>bloat.py</title>
-      <link>https://fouen.github.io/ctf/picoctf/bloat.py/</link>
+      <link>https://fouen.github.io/writeup/picoctf/bloat.py/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/ctf/picoctf/bloat.py/</guid>
+      <guid>https://fouen.github.io/writeup/picoctf/bloat.py/</guid>
       <description>Description # Can you get the flag?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/ctf/picoctf/bloat.py/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/picoctf/bloat.py/featured.png" />
     </item>
     
     <item>
       <title>Reverse</title>
-      <link>https://fouen.github.io/ctf/picoctf/reverse/</link>
+      <link>https://fouen.github.io/writeup/picoctf/reverse/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/ctf/picoctf/reverse/</guid>
+      <guid>https://fouen.github.io/writeup/picoctf/reverse/</guid>
       <description>Description # Try reversing this file?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/ctf/picoctf/reverse/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/picoctf/reverse/featured.png" />
     </item>
     
     <item>
       <title>Safe Opener 2</title>
-      <link>https://fouen.github.io/ctf/picoctf/safe-opener-2/</link>
+      <link>https://fouen.github.io/writeup/picoctf/safe-opener-2/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/ctf/picoctf/safe-opener-2/</guid>
+      <guid>https://fouen.github.io/writeup/picoctf/safe-opener-2/</guid>
       <description>Safe Opener 2 # Description What can you do with this file?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/ctf/picoctf/safe-opener-2/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/picoctf/safe-opener-2/featured.png" />
     </item>
     
     <item>
       <title>unpackme.py</title>
-      <link>https://fouen.github.io/ctf/picoctf/unpackme.py/</link>
+      <link>https://fouen.github.io/writeup/picoctf/unpackme.py/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/ctf/picoctf/unpackme.py/</guid>
+      <guid>https://fouen.github.io/writeup/picoctf/unpackme.py/</guid>
       <description>Description # Can you get the flag?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/ctf/picoctf/unpackme.py/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/picoctf/unpackme.py/featured.png" />
     </item>
     
     <item>
       <title>CaixaBank</title>
-      <link>https://fouen.github.io/ctf/caixabank/</link>
+      <link>https://fouen.github.io/writeup/caixabank/</link>
       <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/ctf/caixabank/</guid>
-      <description>Resoluciones de CTF&amp;rsquo;s</description>
-      
-    </item>
-    
-    <item>
-      <title>CTF</title>
-      <link>https://fouen.github.io/ctf/</link>
-      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://fouen.github.io/ctf/</guid>
+      <guid>https://fouen.github.io/writeup/caixabank/</guid>
       <description>Resoluciones de CTF&amp;rsquo;s</description>
       
     </item>
     
     <item>
       <title>picoCTF</title>
-      <link>https://fouen.github.io/ctf/picoctf/</link>
+      <link>https://fouen.github.io/writeup/picoctf/</link>
       <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/ctf/picoctf/</guid>
+      <guid>https://fouen.github.io/writeup/picoctf/</guid>
       <description></description>
       
     </item>

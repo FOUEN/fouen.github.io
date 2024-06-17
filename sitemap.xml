@@ -3,31 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://fouen.github.io/ctf/picoctf/bloat.py/</loc>
-    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
+    <loc>https://fouen.github.io/blog/pypi/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fouen.github.io/blog/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fouen.github.io/code/python/port_scanner/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fouen.github.io/code/python/macchanger/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://fouen.github.io/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fouen.github.io/blog/sql-map/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fouen.github.io/writeup/picoctf/bloat.py/</loc>
     <lastmod>2024-06-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fouen.github.io/ctf/picoctf/reverse/</loc>
+    <loc>https://fouen.github.io/writeup/picoctf/reverse/</loc>
     <lastmod>2024-06-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fouen.github.io/ctf/picoctf/safe-opener-2/</loc>
+    <loc>https://fouen.github.io/writeup/picoctf/safe-opener-2/</loc>
     <lastmod>2024-06-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fouen.github.io/ctf/picoctf/unpackme.py/</loc>
+    <loc>https://fouen.github.io/writeup/picoctf/unpackme.py/</loc>
+    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fouen.github.io/writeup/</loc>
     <lastmod>2024-06-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -45,12 +81,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fouen.github.io/writeup/</loc>
-    <lastmod>2024-06-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fouen.github.io/writeup/htb/easy/</loc>
     <lastmod>2024-06-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -63,25 +93,19 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fouen.github.io/ctf/caixabank/</loc>
+    <loc>https://fouen.github.io/writeup/caixabank/</loc>
     <lastmod>2024-05-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fouen.github.io/ctf/</loc>
+    <loc>https://fouen.github.io/writeup/caixabank/ctf_07/</loc>
     <lastmod>2024-05-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fouen.github.io/ctf/caixabank/ctf_07/</loc>
-    <lastmod>2024-05-26T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fouen.github.io/ctf/picoctf/</loc>
+    <loc>https://fouen.github.io/writeup/picoctf/</loc>
     <lastmod>2024-05-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -93,13 +117,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fouen.github.io/code/</loc>
+    <loc>https://fouen.github.io/code/python/</loc>
     <lastmod>2024-04-16T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fouen.github.io/code/python/</loc>
+    <loc>https://fouen.github.io/code/</loc>
     <lastmod>2024-04-16T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -125,12 +149,6 @@
   <url>
     <loc>https://fouen.github.io/writeup/hackmyvm/friendly/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fouen.github.io/code/python/1711012841702-f1project/</loc>
-    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

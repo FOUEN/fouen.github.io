@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Code on Fouen</title>
+    <title>Scripts on Fouen</title>
     <link>https://fouen.github.io/code/</link>
-    <description>Recent content in Code on Fouen</description>
+    <description>Recent content in Scripts on Fouen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Fouen</copyright>

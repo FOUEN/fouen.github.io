@@ -9,13 +9,23 @@
     <copyright>© 2024 Fouen</copyright>
     <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/code/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>F1Project</title>
-      <link>https://fouen.github.io/code/python/1711012841702-f1project/</link>
-      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      <title>Escaner de puertos</title>
+      <link>https://fouen.github.io/code/python/port_scanner/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/code/python/1711012841702-f1project/</guid>
-      <description>Fouen 1 Project # Este proyecto se trata de un paquete subido a pypi para reforzar lo que llevo aprendido en python, el cual crea simbolos de copyright.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/code/python/1711012841702-f1project/featured.jpg" />
+      <guid>https://fouen.github.io/code/python/port_scanner/</guid>
+      <description>Es un escaner de puertos muy sencillo Código # import socket import sys from termcolor import colored host = input(&amp;#34;IP: &amp;#34;) port_1 = int(input(&amp;#34;\nPrimer puerto: &amp;#34;)) port_2 = int(input(&amp;#34;\nÚltimo puerto: &amp;#34;)) def connection(): s = socket.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/code/python/port_scanner/featured.png" />
+    </item>
+    
+    <item>
+      <title>Macchanger</title>
+      <link>https://fouen.github.io/code/python/macchanger/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/code/python/macchanger/</guid>
+      <description>¿Qué es una dirección MAC?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/code/python/macchanger/featured.png" />
     </item>
     
   </channel>

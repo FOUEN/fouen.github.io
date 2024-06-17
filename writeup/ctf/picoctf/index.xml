@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>picoCTF on Fouen</title>
+    <link>https://fouen.github.io/writeup/ctf/picoctf/</link>
+    <description>Recent content in picoCTF on Fouen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Fouen</copyright>
+    <lastBuildDate>Sun, 26 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/writeup/ctf/picoctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bloat.py</title>
+      <link>https://fouen.github.io/writeup/ctf/picoctf/bloat.py/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/writeup/ctf/picoctf/bloat.py/</guid>
+      <description>Description # Can you get the flag?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/ctf/picoctf/bloat.py/featured.png" />
+    </item>
+    
+    <item>
+      <title>Reverse</title>
+      <link>https://fouen.github.io/writeup/ctf/picoctf/reverse/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/writeup/ctf/picoctf/reverse/</guid>
+      <description>Description # Try reversing this file?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/ctf/picoctf/reverse/featured.png" />
+    </item>
+    
+    <item>
+      <title>Safe Opener 2</title>
+      <link>https://fouen.github.io/writeup/ctf/picoctf/safe-opener-2/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/writeup/ctf/picoctf/safe-opener-2/</guid>
+      <description>Safe Opener 2 # Description What can you do with this file?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/ctf/picoctf/safe-opener-2/featured.png" />
+    </item>
+    
+    <item>
+      <title>unpackme.py</title>
+      <link>https://fouen.github.io/writeup/ctf/picoctf/unpackme.py/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/writeup/ctf/picoctf/unpackme.py/</guid>
+      <description>Description # Can you get the flag?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/ctf/picoctf/unpackme.py/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
