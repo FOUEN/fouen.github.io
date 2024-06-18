@@ -2,150 +2,160 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pagina de Fouen on Fouen</title>
-    <link>https://fouen.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Pagina de Fouen on Fouen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Fouen</copyright>
-    <lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Escaner de red ICMP</title>
+      <link>http://localhost:1313/code/python/escaner_red/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/code/python/escaner_red/</guid>
+      <description>Es un escaner de red muy sencillo Código # import argparse import subprocess import threading def get_arguments(): parser = argparse.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/code/python/escaner_red/featured.png" />
+    </item>
+    
     <item>
       <title>¿Cómo subir un paquete a Pypi?</title>
-      <link>https://fouen.github.io/blog/pypi/</link>
+      <link>http://localhost:1313/blog/pypi/</link>
       <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/blog/pypi/</guid>
+      <guid>http://localhost:1313/blog/pypi/</guid>
       <description>Configuración básica # Iniciar sesión en pypi</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/blog/pypi/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/pypi/featured.png" />
     </item>
     
     <item>
       <title>CTF_01</title>
-      <link>https://fouen.github.io/writeup/caixabank/ctf_01/</link>
+      <link>http://localhost:1313/writeup/caixabank/ctf_01/</link>
       <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/writeup/caixabank/ctf_01/</guid>
+      <guid>http://localhost:1313/writeup/caixabank/ctf_01/</guid>
       <description>WRITEUP CTF CaixaBank Tech - RETO 1 # Competición CaixaBank Tech | Reto Esteganografía [1/2] TESIS DEL DESAFÍO # Iniciamos el reto viendo la siguiente imagen.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/caixabank/ctf_01/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeup/caixabank/ctf_01/featured.png" />
     </item>
     
     <item>
       <title>Escaner de puertos</title>
-      <link>https://fouen.github.io/code/python/port_scanner/</link>
+      <link>http://localhost:1313/code/python/port_scanner/</link>
       <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/code/python/port_scanner/</guid>
+      <guid>http://localhost:1313/code/python/port_scanner/</guid>
       <description>Es un escaner de puertos muy sencillo Código # import socket import sys from termcolor import colored host = input(&amp;#34;IP: &amp;#34;) port_1 = int(input(&amp;#34;\nPrimer puerto: &amp;#34;)) port_2 = int(input(&amp;#34;\nÚltimo puerto: &amp;#34;)) def connection(): s = socket.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/code/python/port_scanner/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/code/python/port_scanner/featured.png" />
     </item>
     
     <item>
       <title>Macchanger</title>
-      <link>https://fouen.github.io/code/python/macchanger/</link>
+      <link>http://localhost:1313/code/python/macchanger/</link>
       <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/code/python/macchanger/</guid>
+      <guid>http://localhost:1313/code/python/macchanger/</guid>
       <description>¿Qué es una dirección MAC?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/code/python/macchanger/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/code/python/macchanger/featured.png" />
     </item>
     
     <item>
       <title>Sql Map</title>
-      <link>https://fouen.github.io/blog/sql-map/</link>
+      <link>http://localhost:1313/blog/sql-map/</link>
       <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/blog/sql-map/</guid>
+      <guid>http://localhost:1313/blog/sql-map/</guid>
       <description>¿Que es?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/blog/sql-map/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/sql-map/featured.png" />
     </item>
     
     <item>
       <title>bloat.py</title>
-      <link>https://fouen.github.io/writeup/picoctf/bloat.py/</link>
+      <link>http://localhost:1313/writeup/picoctf/bloat.py/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/writeup/picoctf/bloat.py/</guid>
+      <guid>http://localhost:1313/writeup/picoctf/bloat.py/</guid>
       <description>Description # Can you get the flag?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/picoctf/bloat.py/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeup/picoctf/bloat.py/featured.png" />
     </item>
     
     <item>
       <title>Reverse</title>
-      <link>https://fouen.github.io/writeup/picoctf/reverse/</link>
+      <link>http://localhost:1313/writeup/picoctf/reverse/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/writeup/picoctf/reverse/</guid>
+      <guid>http://localhost:1313/writeup/picoctf/reverse/</guid>
       <description>Description # Try reversing this file?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/picoctf/reverse/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeup/picoctf/reverse/featured.png" />
     </item>
     
     <item>
       <title>Safe Opener 2</title>
-      <link>https://fouen.github.io/writeup/picoctf/safe-opener-2/</link>
+      <link>http://localhost:1313/writeup/picoctf/safe-opener-2/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/writeup/picoctf/safe-opener-2/</guid>
+      <guid>http://localhost:1313/writeup/picoctf/safe-opener-2/</guid>
       <description>Safe Opener 2 # Description What can you do with this file?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/picoctf/safe-opener-2/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeup/picoctf/safe-opener-2/featured.png" />
     </item>
     
     <item>
       <title>unpackme.py</title>
-      <link>https://fouen.github.io/writeup/picoctf/unpackme.py/</link>
+      <link>http://localhost:1313/writeup/picoctf/unpackme.py/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/writeup/picoctf/unpackme.py/</guid>
+      <guid>http://localhost:1313/writeup/picoctf/unpackme.py/</guid>
       <description>Description # Can you get the flag?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/picoctf/unpackme.py/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeup/picoctf/unpackme.py/featured.png" />
     </item>
     
     <item>
       <title>Plunk</title>
-      <link>https://fouen.github.io/writeup/vulnhub/plunk/</link>
+      <link>http://localhost:1313/writeup/vulnhub/plunk/</link>
       <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/writeup/vulnhub/plunk/</guid>
+      <guid>http://localhost:1313/writeup/vulnhub/plunk/</guid>
       <description>Reconocimiento # Nmap # Primero vamos a escanear la red para ver que IP tenemos que atacar:</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/vulnhub/plunk/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeup/vulnhub/plunk/featured.png" />
     </item>
     
     <item>
       <title>Headless</title>
-      <link>https://fouen.github.io/writeup/htb/easy/headless/</link>
+      <link>http://localhost:1313/writeup/htb/easy/headless/</link>
       <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/writeup/htb/easy/headless/</guid>
+      <guid>http://localhost:1313/writeup/htb/easy/headless/</guid>
       <description>Reconocimiento # Nmap # Escaneamos la maquina para ver que puertos tiene abiertos;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/htb/easy/headless/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeup/htb/easy/headless/featured.png" />
     </item>
     
     <item>
       <title>CTF_07</title>
-      <link>https://fouen.github.io/writeup/caixabank/ctf_07/</link>
+      <link>http://localhost:1313/writeup/caixabank/ctf_07/</link>
       <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/writeup/caixabank/ctf_07/</guid>
+      <guid>http://localhost:1313/writeup/caixabank/ctf_07/</guid>
       <description>Resoluciones de CTF&amp;rsquo;s</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/caixabank/ctf_07/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeup/caixabank/ctf_07/featured.png" />
     </item>
     
     <item>
       <title>Scripts de escaneo</title>
-      <link>https://fouen.github.io/code/bash/escaneo/</link>
+      <link>http://localhost:1313/code/bash/escaneo/</link>
       <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/code/bash/escaneo/</guid>
+      <guid>http://localhost:1313/code/bash/escaneo/</guid>
       <description>Scripts:</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/code/bash/escaneo/escaneo_featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/code/bash/escaneo/escaneo_featured.jpg" />
     </item>
     
     <item>
       <title>🟢Friendly</title>
-      <link>https://fouen.github.io/writeup/hackmyvm/friendly/</link>
+      <link>http://localhost:1313/writeup/hackmyvm/friendly/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/writeup/hackmyvm/friendly/</guid>
+      <guid>http://localhost:1313/writeup/hackmyvm/friendly/</guid>
       <description>Esta es la resolución de la maquina Friendly</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/hackmyvm/friendly/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeup/hackmyvm/friendly/featured.png" />
     </item>
     
   </channel>

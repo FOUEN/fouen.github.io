@@ -2,30 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Fouen</title>
-    <link>https://fouen.github.io/code/python/</link>
+    <link>http://localhost:1313/code/python/</link>
     <description>Recent content in Python on Fouen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Fouen</copyright>
-    <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/code/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/code/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Escaner de red ICMP</title>
+      <link>http://localhost:1313/code/python/escaner_red/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/code/python/escaner_red/</guid>
+      <description>Es un escaner de red muy sencillo Código # import argparse import subprocess import threading def get_arguments(): parser = argparse.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/code/python/escaner_red/featured.png" />
+    </item>
+    
     <item>
       <title>Escaner de puertos</title>
-      <link>https://fouen.github.io/code/python/port_scanner/</link>
+      <link>http://localhost:1313/code/python/port_scanner/</link>
       <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/code/python/port_scanner/</guid>
+      <guid>http://localhost:1313/code/python/port_scanner/</guid>
       <description>Es un escaner de puertos muy sencillo Código # import socket import sys from termcolor import colored host = input(&amp;#34;IP: &amp;#34;) port_1 = int(input(&amp;#34;\nPrimer puerto: &amp;#34;)) port_2 = int(input(&amp;#34;\nÚltimo puerto: &amp;#34;)) def connection(): s = socket.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/code/python/port_scanner/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/code/python/port_scanner/featured.png" />
     </item>
     
     <item>
       <title>Macchanger</title>
-      <link>https://fouen.github.io/code/python/macchanger/</link>
+      <link>http://localhost:1313/code/python/macchanger/</link>
       <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/code/python/macchanger/</guid>
+      <guid>http://localhost:1313/code/python/macchanger/</guid>
       <description>¿Qué es una dirección MAC?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/code/python/macchanger/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/code/python/macchanger/featured.png" />
     </item>
     
   </channel>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ICMP on Fouen</title>
+    <link>http://localhost:1313/tags/icmp/</link>
+    <description>Recent content in ICMP on Fouen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Fouen</copyright>
+    <lastBuildDate>Tue, 18 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/icmp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Escaner de red ICMP</title>
+      <link>http://localhost:1313/code/python/escaner_red/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/code/python/escaner_red/</guid>
+      <description>Es un escaner de red muy sencillo Código # import argparse import subprocess import threading def get_arguments(): parser = argparse.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/code/python/escaner_red/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
