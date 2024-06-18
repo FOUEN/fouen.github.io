@@ -108,7 +108,7 @@
     "keywords": ["SQL","SQL Map","SQL Injection"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "603"
+    "wordCount": "602"
   }]
   </script>
 
@@ -712,7 +712,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-06-17 00:00:00 &#43;0000 UTC">17 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>603 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2024-06-17 00:00:00 &#43;0000 UTC">17 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>602 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -1119,10 +1119,10 @@
    
 <code>--passwords</code>: Enumera los hashes de las contraseñas de los usuarios</p>
 <hr>
-<p><code>--os-shell</code>: Obtener una shell del sistema operativo a través de una vulnerabilidad de   inyección SQL</p>
-<p>Este parametro funciona mas o menos de esta manera:</p>
+<p><code>--os-shell</code>: Obtener una shell del sistema operativo a través de una vulnerabilidad de inyección SQL</p>
+<p>Este parametro funciona más o menos de esta manera:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="s1">&#39; union select NULL,&#34;&lt;?php system($_GET[&#39;</span><span class="n">cmd</span><span class="s1">&#39;]); ?&gt;&#34;,NULL into outfile &#34;/var/www/html/malicious.php&#34;-- -
-</span></span></span></code></pre></div><p>Esta vulnerabilidad trata permite a un atacante escribir un archivo PHP malicioso en el servidor para ejecutar comandos del sistema operativo</p>
+</span></span></span></code></pre></div><p>Esta vulnerabilidad permite a un atacante escribir un archivo PHP malicioso en el servidor para ejecutar comandos del sistema operativo</p>
 <p><code>--os-pwn</code>: Busca obtener una shell, Meterpreter o VNC a través de un canal Out-Of-Band (OOB)</p>
 <hr>
 
