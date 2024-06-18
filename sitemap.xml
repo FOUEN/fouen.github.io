@@ -3,6 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://fouen.github.io/code/python/escaner_red/</loc>
+    <lastmod>2024-06-18T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fouen.github.io/</loc>
+    <lastmod>2024-06-18T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fouen.github.io/blog/pypi/</loc>
     <lastmod>2024-06-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -21,12 +33,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fouen.github.io/code/python/escaner_red/</loc>
-    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fouen.github.io/code/python/port_scanner/</loc>
     <lastmod>2024-06-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -34,12 +40,6 @@
   </url>
   <url>
     <loc>https://fouen.github.io/code/python/macchanger/</loc>
-    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fouen.github.io/</loc>
     <lastmod>2024-06-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

@@ -10,16 +10,6 @@
     <lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/tags/port_scanner/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Escaner de puertos</title>
-      <link>https://fouen.github.io/code/python/escaner_red/</link>
-      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://fouen.github.io/code/python/escaner_red/</guid>
-      <description>Es un escaner de red muy sencillo Código # import argparse import subprocess import threading def get_arguments(): parser = argparse.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/code/python/escaner_red/featured.png" />
-    </item>
-    
-    <item>
-      <title>Escaner de puertos</title>
       <link>https://fouen.github.io/code/python/port_scanner/</link>
       <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
       
