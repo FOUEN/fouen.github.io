@@ -8,16 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>SQL &middot; Fouen</title>
-  <meta name="title" content="SQL &middot; Fouen" />
+  <title>Modelo OSI &middot; Fouen</title>
+  <meta name="title" content="Modelo OSI &middot; Fouen" />
   
-  <meta name="description" content="Bienvenido a mi web aquí podras ver writeups de maquinas y CTF&#39;s, scripts tanto en bash como en python y posts de ciberseguridad" />
+  <meta name="description" content="Explicación del Modelo OSI" />
+  <meta name="keywords" content="Capas de red, Modelo OSI, " />
   
   
-  
-  <link rel="canonical" href="https://fouen.github.io/tags/sql/" />
-  
-  <link rel="alternate" type="application/rss+xml" href="/tags/sql/index.xml" title="Fouen" />
+  <link rel="canonical" href="https://fouen.github.io/blog/modelo-osi/" />
   
   
   
@@ -65,20 +63,54 @@
   
   
   
-  <meta property="og:url" content="https://fouen.github.io/tags/sql/">
+  <meta property="og:url" content="https://fouen.github.io/blog/modelo-osi/">
   <meta property="og:site_name" content="Fouen">
-  <meta property="og:title" content="SQL">
-  <meta property="og:description" content="Bienvenido a mi web aquí podras ver writeups de maquinas y CTF&#39;s, scripts tanto en bash como en python y posts de ciberseguridad">
+  <meta property="og:title" content="Modelo OSI">
+  <meta property="og:description" content="Explicación del Modelo OSI">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2024-06-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-06-19T00:00:00+00:00">
+    <meta property="article:tag" content="Capas De Red">
+    <meta property="article:tag" content="Modelo OSI">
+    <meta property="og:image" content="https://fouen.github.io/blog/modelo-osi/featured.png">
 
   
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="SQL">
-  <meta name="twitter:description" content="Bienvenido a mi web aquí podras ver writeups de maquinas y CTF&#39;s, scripts tanto en bash como en python y posts de ciberseguridad">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://fouen.github.io/blog/modelo-osi/featured.png">
+  <meta name="twitter:title" content="Modelo OSI">
+  <meta name="twitter:description" content="Explicación del Modelo OSI">
 
   
-  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Blog de ciberseguridad",
+    "name": "Modelo OSI",
+    "headline": "Modelo OSI",
+    "description": "Explicación del Modelo OSI",
+    "abstract": "¿Qué es el modelo OSI?",
+    "inLanguage": "en",
+    "url" : "https:\/\/fouen.github.io\/blog\/modelo-osi\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Fouen"
+    },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-06-19T00:00:00\u002b00:00",
+    "datePublished": "2024-06-19T00:00:00\u002b00:00",
+    
+    "dateModified": "2024-06-19T00:00:00\u002b00:00",
+    
+    "keywords": ["Capas de red","Modelo OSI"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "652"
+  }]
+  </script>
+
 
   
   
@@ -98,6 +130,17 @@
 <script src="/lib/jquery/jquery.slim.min.js" integrity=""></script>
 
 
+
+  
+  
+  
+  
+  <script
+    defer
+    type="text/javascript"
+    src="/js/mermaid.bundle.79fb2b63195059fdbfc56baebc147a42a4f1a8742d85e355e37f284c17866228b178f4bfc234a5ff7b807cca0907a189a1d6309159e50c112a9e82cabfc4c1f8.js"
+    integrity="sha512-efsrYxlQWf2/xWuuvBR6QqTxqHQtheNV438oTBeGYiixePS/wjSl/3uAfMoJB6GJodYwkVnlDBEqnoLKv8TB&#43;A=="
+  ></script>
 
 
 
@@ -576,25 +619,89 @@
       
 
 
-
-
-
-
- 
+<article>
   
-   
   
- 
-
+  
+  
+  
+  
         
-            <div class="w-full h-36 md:h-56 lg:h-72 single_hero_basic nozoom" style="background-image:url(/back6.jpg);"></div>
+            <div class="w-full h-36 md:h-56 lg:h-72 single_hero_basic nozoom" style="background-image:url(/blog/modelo-osi/featured.png);"></div>
         
     
- <header>
   
-  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">SQL</h1>
-  <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
     
+    <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/"
+      >Pagina de Fouen</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/blog/"
+      >Blog de ciberseguridad</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/blog/modelo-osi/"
+      >Modelo OSI</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      Modelo OSI
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
 
 
 
@@ -604,14 +711,82 @@
 
 
 
+  
 
 
 
+  
 
 
 
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-06-19 00:00:00 &#43;0000 UTC">19 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>652 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
+  
+    
+  
+  
+
+<span class="mb-[2px]">
+  <a
+    href="#/blog/Modelo%20OSI/index.md"
+    class="text-lg hover:text-primary-500"
+    rel="noopener noreferrer"
+    target="_blank"
+    title="Edit content"
+    ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path fill="currentColor" d="M441 58.9L453.1 71c9.4 9.4 9.4 24.6 0 33.9L424 134.1 377.9 88 407 58.9c9.4-9.4 24.6-9.4 33.9 0zM209.8 256.2L344 121.9 390.1 168 255.8 302.2c-2.9 2.9-6.5 5-10.4 6.1l-58.5 16.7 16.7-58.5c1.1-3.9 3.2-7.5 6.1-10.4zM373.1 25L175.8 222.2c-8.7 8.7-15 19.4-18.3 31.1l-28.6 100c-2.4 8.4-.1 17.4 6.1 23.6s15.2 8.5 23.6 6.1l100-28.6c11.8-3.4 22.5-9.7 31.1-18.3L487 138.9c28.1-28.1 28.1-73.7 0-101.8L474.9 25C446.8-3.1 401.2-3.1 373.1 25zM88 64C39.4 64 0 103.4 0 152V424c0 48.6 39.4 88 88 88H360c48.6 0 88-39.4 88-88V312c0-13.3-10.7-24-24-24s-24 10.7-24 24V424c0 22.1-17.9 40-40 40H88c-22.1 0-40-17.9-40-40V152c0-22.1 17.9-40 40-40H200c13.3 0 24-10.7 24-24s-10.7-24-24-24H88z"/></svg>
+  </span>
+
+</span></a
+  >
+</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+<script type="text/javascript" src="/js/zen-mode.min.ccc8b2a0c4505216444ca25530c7328aa0bef94f43dabaf3e598e1b4271de9eec76c1cb35917471a4f7ccb8d84051b3acef42baa30724ac3a667fcf1fec4432a.js" integrity="sha512-zMiyoMRQUhZETKJVMMcyiqC&#43;&#43;U9D2rrz5ZjhtCcd6e7HbByzWRdHGk98y42EBRs6zvQrqjBySsOmZ/zx/sRDKg=="></script>
+
+<span class="mb-[2px]">
+    <span id="zen-mode-button"
+          class="text-lg hover:text-primary-500"
+          title="Enable zen mode"
+          data-title-i18n-disable="Enable zen mode"
+          data-title-i18n-enable="Disable zen mode">
+        <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+    <path fill="currentColor" d="M 12.980469 4 C 9.1204688 4 5.9804688 7.14 5.9804688 11 L 6 26 L 9.9804688 26 L 9.9804688 11 C 9.9804688 9.35 11.320469 8 12.980469 8 L 40.019531 8 C 41.679531 8 43.019531 9.35 43.019531 11 L 43.019531 39 C 43.019531 40.65 41.679531 42 40.019531 42 L 29 42 C 29 43.54 28.420938 44.94 27.460938 46 L 40.019531 46 C 43.879531 46 47.019531 42.86 47.019531 39 L 47.019531 11 C 47.019531 7.14 43.879531 4 40.019531 4 L 12.980469 4 z M 7 28 C 4.794 28 3 29.794 3 32 L 3 42 C 3 44.206 4.794 46 7 46 L 23 46 C 25.206 46 27 44.206 27 42 L 27 32 C 27 29.794 25.206 28 23 28 L 7 28 z M 7 32 L 23 32 L 23.001953 42 L 7 42 L 7 32 z"/>
+</svg>
+  </span>
+
+</span>
+    </span>
+</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
 
 
 
@@ -619,189 +794,507 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/capas-de-red/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Capas De Red
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/modelo-osi/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Modelo OSI
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
 </div>
 
 
+
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+      
+      
+<div class="flex author">
+  
+    
+    
+      
+      <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
+      alt="Fouen" src="/fotoperfil.jpg" />
+    
+  
+  <div class="place-self-center">
+    
+    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+      Author
+    </div>
+    <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+      Fouen
+    </div>
+    
+    
+    <div class="text-sm text-neutral-700 dark:text-neutral-400">Soy un joven informatico interesado en la ciberseguridad</div>
+    
+    <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://www.linkedin.com/in/joel-guill%c3%a9n-5a2531254"
+          target="_blank"
+          aria-label="Linkedin"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://github.com/FOUEN"
+          target="_blank"
+          aria-label="Github"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
   </div>
+
+</div>
+  </div>
+</div>
+    
+
+    
+
+    
+
+    
+    <div class="mb-5"></div>
+    
+  
   </header>
-
-  <section class="flex flex-col max-w-full mt-0 mb-5 prose dark:prose-invert lg:flex-row">
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
     
-    <script>
-      var oid = "views_term_SQL"
-      var oid_likes = "likes_term_SQL"
-    </script>
-    
-    
-    <script type="text/javascript" src="/js/page.min.f94e5beb747249fb2315a14fc6417e483411d48b59dc1376bbafa8c37fce65d397d5401be15c7461670ec7bb90ac2bf148d7d48eaf02f317cd9dc04d4851fd31.js" integrity="sha512-&#43;U5b63RySfsjFaFPxkF&#43;SDQR1ItZ3BN2u6&#43;ow3/OZdOX1UAb4Vx0YWcOx7uQrCvxSNfUjq8C8xfNncBNSFH9MQ=="></script>
-  </section>
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-10">
 
+         <details open class="toc-right mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#qué-es-el-modelo-osi">¿Qué es el modelo OSI?</a></li>
+    <li><a href="#de-dónde-viene">¿De dónde viene?</a></li>
+    <li><a href="#sus-capas">Sus capas:</a>
+      <ul>
+        <li><a href="#1-capa-física">1. Capa <strong>Física</strong></a></li>
+        <li><a href="#2-capa-de-enlace-de-datos">2. Capa de <strong>Enlace de Datos</strong></a></li>
+        <li><a href="#3-capa-de-red">3. Capa de <strong>Red</strong></a></li>
+        <li><a href="#4-capa-de-transporte">4. Capa de <strong>Transporte</strong></a></li>
+        <li><a href="#5-capa-de-sesión">5. Capa de <strong>Sesión</strong></a></li>
+        <li><a href="#6-capa-de-presentación">6. Capa de <strong>Presentación</strong></a></li>
+        <li><a href="#7-capa-de-aplicación">7. Capa de <strong>Aplicación</strong></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#qué-es-el-modelo-osi">¿Qué es el modelo OSI?</a></li>
+    <li><a href="#de-dónde-viene">¿De dónde viene?</a></li>
+    <li><a href="#sus-capas">Sus capas:</a>
+      <ul>
+        <li><a href="#1-capa-física">1. Capa <strong>Física</strong></a></li>
+        <li><a href="#2-capa-de-enlace-de-datos">2. Capa de <strong>Enlace de Datos</strong></a></li>
+        <li><a href="#3-capa-de-red">3. Capa de <strong>Red</strong></a></li>
+        <li><a href="#4-capa-de-transporte">4. Capa de <strong>Transporte</strong></a></li>
+        <li><a href="#5-capa-de-sesión">5. Capa de <strong>Sesión</strong></a></li>
+        <li><a href="#6-capa-de-presentación">6. Capa de <strong>Presentación</strong></a></li>
+        <li><a href="#7-capa-de-aplicación">7. Capa de <strong>Aplicación</strong></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
 
-  
+ 
+<script>
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
 
-  
-  
-  
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = e.attr('id');
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
 
-  
+        active.each(function (i, e) {
+          
+            $(e).removeClass('active');
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
 
-  
-
-  
-  <h2 class="mt-12 mb-3 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
-    2024
-  </h2>
-  <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-    
-    
-
-  <a href="/blog/sql-map/" class="min-w-full">
-    
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
         
-        <div class="w-full thumbnail_card nozoom" style="background-image:url(/blog/sql-map/featured.png);"></div>
-        
+        onScroll();
+      });
+    }
+  })();
+</script>
+   </div>
+      </div>
       
 
-      <div class="px-6 py-4">
-
+      <div class="min-w-0 min-h-0 max-w-fit">
         
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/blog/sql-map/">Sqlmap</div>
         
 
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+
+        <div class="article-content max-w-prose mb-20">
           
 
-
-
-
-
-
-
-
-
-
-
+<h2 class="relative group">¿Qué es el modelo OSI? 
+    <div id="qu%C3%A9-es-el-modelo-osi" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#qu%C3%A9-es-el-modelo-osi" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>El Modelo OSI es una guía que nos ayuda a entender cómo los equipos hablan entre sí a través de las redes. Imagina que es una receta que detalla paso a paso cómo se debe hacer para que la comunicación funcione bien. Éste consta de 7 capas:</p>
+<div class="mermaid" align="center">
   
+graph LR;
+A[Física]-->B[Enlace de datos];
+B-->C[Red];
+C-->D[Transporte];
+D-->E[Sesión];
+E-->F[Presentación];
+F-->G[Aplicación];
 
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-06-17 00:00:00 &#43;0000 UTC">17 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>602 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
-  
-
-  
-  
-</div>
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 </div>
 
 
 
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/sql/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    SQL
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/sql-map/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    SQL Map
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/sql-injection/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    SQL Injection
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
+<h2 class="relative group">¿De dónde viene? 
+    <div id="de-d%C3%B3nde-viene" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#de-d%C3%B3nde-viene" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>En los años 1970, los equipos empezaban a conectarse entre sí, pero cada fabricante tenía su propio idioma y no podían entenderse. Entonces, un grupo llamado ISO decidió crear una receta universal para que todos los equipos pudieran comunicarse sin importar quién las hizo. Así nació el Modelo OSI en 1984.</p>
 
 
+<h2 class="relative group">Sus capas: 
+    <div id="sus-capas" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#sus-capas" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">1. Capa <strong>Física</strong> 
+    <div id="1-capa-f%C3%ADsica" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#1-capa-f%C3%ADsica" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p><strong>Función:</strong> Esta capa es como el cartero que lleva las cartas (bits) a través de diferentes caminos como cables, fibra óptica o aire.</p>
+<p><strong>Detalles:</strong></p>
+<ul>
+<li><strong>Medios de transmisión:</strong> Cables de cobre (como los que usas para cargar tu teléfono), fibra óptica (cables muy rápidos) y ondas de radio (como el Wi-Fi).</li>
+<li><strong>Señales:</strong> Señales eléctricas (como la corriente en tu casa), ópticas (luz en cables de fibra) y de radio (Wi-Fi).</li>
+<li><strong>Dispositivos:</strong> Repetidores (que amplifican la señal) y concentradores (hubs) que conectan varios cables.</li>
+<li><strong>Responsabilidad:</strong> Asegurarse de que los bits viajen del punto A al punto B correctamente.</li>
+</ul>
+
+
+<h3 class="relative group">2. Capa de <strong>Enlace de Datos</strong> 
+    <div id="2-capa-de-enlace-de-datos" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#2-capa-de-enlace-de-datos" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p><strong>Función:</strong> Esta capa asegura que los datos lleguen sin errores entre dos dispositivos conectados directamente, como dos computadoras en la misma red.</p>
+<p><strong>Detalles:</strong></p>
+<ul>
+<li><strong>Protocolo:</strong> <code>Ethernet</code>, <code>Wi-Fi</code>, <code>PPP</code> (utilizado en conexiones telefónicas).</li>
+<li><strong>Dispositivos:</strong> Switches (como un repartidor que envía datos al dispositivo correcto) y puentes (bridges) que conectan dos redes.</li>
+<li><strong>División:</strong>
+<ul>
+<li><strong>Control de acceso al medio (MAC):</strong> Decide quién puede usar la red y cuándo.</li>
+<li><strong>Control de enlace lógico (LLC):</strong> Controla el flujo y corrige errores.</li>
+</ul>
+</li>
+<li><strong>Tramas:</strong> Agrupa los bits en paquetes más grandes llamados tramas para enviarlos y recibirlos.</li>
+</ul>
+
+
+<h3 class="relative group">3. Capa de <strong>Red</strong> 
+    <div id="3-capa-de-red" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#3-capa-de-red" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p><strong>Función:</strong> Esta capa encuentra la mejor ruta para enviar datos de un lugar a otro, a través de diferentes redes.</p>
+<p><strong>Detalles:</strong></p>
+<ul>
+<li><strong>Protocolo:</strong> <code>IP</code>, que es como una dirección postal que ayuda a identificar cada dispositivo en la red.</li>
+<li><strong>Dispositivos:</strong> Routers que dirigen los datos por la mejor ruta.</li>
+<li><strong>Responsabilidad:</strong> Encaminamiento de paquetes (bloques de datos).</li>
+<li><strong>Direcciones:</strong> Direcciones IP que identifican a cada dispositivo en la red, como direcciones de casas.</li>
+</ul>
+
+
+<h3 class="relative group">4. Capa de <strong>Transporte</strong> 
+    <div id="4-capa-de-transporte" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#4-capa-de-transporte" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p><strong>Función:</strong> Esta capa asegura que los datos lleguen completos y en el orden correcto.</p>
+<p><strong>Detalles:</strong></p>
+<ul>
+<li><strong>Protocolo:</strong> <code>TCP</code> y <code>UDP</code>.</li>
+<li><strong>Responsabilidad:</strong>
+<ul>
+<li><strong>TCP:</strong> Crea una conexión, garantiza que los datos lleguen correctamente y en orden.</li>
+<li><strong>UDP:</strong> No garantiza la entrega, pero es más rápido, ideal para videos en vivo.</li>
+</ul>
+</li>
+<li><strong>Segmentos:</strong> Divide los datos en bloques llamados segmentos para enviarlos.</li>
+</ul>
+
+
+<h3 class="relative group">5. Capa de <strong>Sesión</strong> 
+    <div id="5-capa-de-sesi%C3%B3n" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#5-capa-de-sesi%C3%B3n" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p><strong>Función:</strong> Esta capa maneja las conexiones entre dos dispositivos, como iniciar y terminar una llamada telefónica.</p>
+<p><strong>Detalles:</strong></p>
+<ul>
+<li><strong>Establecimiento, mantenimiento y terminación:</strong> Abre, mantiene y cierra las sesiones de comunicación.</li>
+<li><strong>Sincronización:</strong> Añade puntos de control para poder reanudar correctamente si hay fallos.</li>
+<li><strong>Ejemplo:</strong> En una videollamada, mantiene la conexión activa y sin interrupciones.</li>
+</ul>
+
+
+<h3 class="relative group">6. Capa de <strong>Presentación</strong> 
+    <div id="6-capa-de-presentaci%C3%B3n" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#6-capa-de-presentaci%C3%B3n" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p><strong>Función:</strong> Esta capa traduce y organiza los datos para que sean entendibles por la aplicación que los recibe.</p>
+<p><strong>Detalles:</strong></p>
+<ul>
+<li><strong>Traducción:</strong> Convierte datos entre diferentes formatos, como de texto a binario.</li>
+<li><strong>Cifrado:</strong> Protege la información mediante cifrado para que no pueda ser leída por personas no autorizadas.</li>
+<li><strong>Compresión:</strong> Reduce el tamaño de los datos para que se transmitan más rápido.</li>
+<li><strong>Ejemplo:</strong> Convierte imágenes a formatos como <code>JPEG</code> o <code>GIF</code>.</li>
+</ul>
+
+
+<h3 class="relative group">7. Capa de <strong>Aplicación</strong> 
+    <div id="7-capa-de-aplicaci%C3%B3n" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#7-capa-de-aplicaci%C3%B3n" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p><strong>Función:</strong> Esta capa es la más cercana al usuario y maneja las aplicaciones de red como los navegadores web y el correo electrónico.</p>
+<p><strong>Detalles:</strong></p>
+<ul>
+<li><strong>Protocolos:</strong> <code>HTTP</code> (navegación web), <code>FTP</code> (transferencia de archivos), <code>SMTP</code> (envío de correos), <code>DNS</code> (traducción de nombres de dominio).</li>
+<li><strong>Interacción:</strong> Directamente con las aplicaciones que usamos a diario.</li>
+<li><strong>Servicios:</strong> Proporciona servicios como transferencia de archivos, correos electrónicos y navegación web.</li>
+</ul>
 
         </div>
+                
+        
 
         
-      </div>
-      <div class="px-6 pt-4 pb-2">
 
+          
+      </div>
+     
+    
+     <script>
+        var oid = "views_blog\/Modelo OSI\/index.md"
+        var oid_likes = "likes_blog\/Modelo OSI\/index.md"
+      </script>
+      
+      
+      
+      <script type="text/javascript" src="/js/page.min.f94e5beb747249fb2315a14fc6417e483411d48b59dc1376bbafa8c37fce65d397d5401be15c7461670ec7bb90ac2bf148d7d48eaf02f317cd9dc04d4851fd31.js" integrity="sha512-&#43;U5b63RySfsjFaFPxkF&#43;SDQR1ItZ3BN2u6&#43;ow3/OZdOX1UAb4Vx0YWcOx7uQrCvxSNfUjq8C8xfNncBNSFH9MQ=="></script>
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/blog/pypi/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >¿Cómo subir un paquete a Pypi?</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-06-17 00:00:00 &#43;0000 UTC">17 June 2024</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+        </span>
       </div>
     </div>
-  </a>
+  
+
+
     
-  </section>
-  
+  </footer>
+</article>
 
-  
-
-  
-
-  
-
-  
-
-  
-      
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   

@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Fouen</copyright>
-    <lastBuildDate>Tue, 18 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Escaner</title>
-      <link>https://fouen.github.io/tags/escaner/</link>
-      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <title>Capas De Red</title>
+      <link>https://fouen.github.io/tags/capas-de-red/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://fouen.github.io/tags/escaner/</guid>
+      <guid>https://fouen.github.io/tags/capas-de-red/</guid>
       <description></description>
       
     </item>
@@ -21,7 +21,7 @@
     <item>
       <title>Hack My VM</title>
       <link>https://fouen.github.io/tags/hack-my-vm/</link>
-      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://fouen.github.io/tags/hack-my-vm/</guid>
       <description></description>
@@ -31,9 +31,39 @@
     <item>
       <title>Hack the Box</title>
       <link>https://fouen.github.io/tags/hack-the-box/</link>
-      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://fouen.github.io/tags/hack-the-box/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Modelo OSI</title>
+      <link>https://fouen.github.io/tags/modelo-osi/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/modelo-osi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Try Hack Me</title>
+      <link>https://fouen.github.io/tags/try-hack-me/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/try-hack-me/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Escaner</title>
+      <link>https://fouen.github.io/tags/escaner/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/escaner/</guid>
       <description></description>
       
     </item>
@@ -64,16 +94,6 @@
       <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://fouen.github.io/tags/red/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Try Hack Me</title>
-      <link>https://fouen.github.io/tags/try-hack-me/</link>
-      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://fouen.github.io/tags/try-hack-me/</guid>
       <description></description>
       
     </item>
