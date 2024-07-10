@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cybersecurity on Fouen</title>
-    <link>http://localhost:1313/cybersecurity/</link>
+    <link>https://fouen.github.io/cybersecurity/</link>
     <description>Recent content in Cybersecurity on Fouen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Fouen</copyright>
-    <lastBuildDate>Wed, 03 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

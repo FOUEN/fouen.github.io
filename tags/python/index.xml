@@ -38,5 +38,15 @@
       
     </item>
     
+    <item>
+      <title>F1Project</title>
+      <link>https://fouen.github.io/python/1711012841702-f1project/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/python/1711012841702-f1project/</guid>
+      <description>Fouen 1 Project # Este proyecto se trata de un paquete subido a pypi para reforzar lo que llevo aprendido en python, el cual crea simbolos de copyright.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/python/1711012841702-f1project/featured.jpg" />
+    </item>
+    
   </channel>
 </rss>

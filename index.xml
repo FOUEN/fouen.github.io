@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Fouen</copyright>
-    <lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modelo OSI</title>
       <link>https://fouen.github.io/blog/modelo-osi/</link>
@@ -160,12 +160,42 @@
     
     <item>
       <title>🟢Friendly</title>
+      <link>https://fouen.github.io/cybersecurity/hackmyvm/friendly/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/cybersecurity/hackmyvm/friendly/</guid>
+      <description>Esta es la resolución de la maquina Friendly</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/cybersecurity/hackmyvm/friendly/featured.png" />
+    </item>
+    
+    <item>
+      <title>🟢Friendly</title>
       <link>https://fouen.github.io/writeup/hackmyvm/friendly/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://fouen.github.io/writeup/hackmyvm/friendly/</guid>
       <description>Esta es la resolución de la maquina Friendly</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/hackmyvm/friendly/featured.png" />
+    </item>
+    
+    <item>
+      <title>F1Project</title>
+      <link>https://fouen.github.io/python/1711012841702-f1project/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/python/1711012841702-f1project/</guid>
+      <description>Fouen 1 Project # Este proyecto se trata de un paquete subido a pypi para reforzar lo que llevo aprendido en python, el cual crea simbolos de copyright.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/python/1711012841702-f1project/featured.jpg" />
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://fouen.github.io/writeup/htb/hard/reel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/writeup/htb/hard/reel/</guid>
+      <description>Reconocimiento # Nmap # Escaneamos la maquina para ver que puertos tiene abiertos:</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/htb/hard/reel/featured.png" />
     </item>
     
   </channel>
