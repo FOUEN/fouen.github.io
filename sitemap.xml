@@ -15,6 +15,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fouen.github.io/writeup/htb/hard/reel/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fouen.github.io/writeup/</loc>
     <lastmod>2024-07-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -215,11 +221,6 @@
   <url>
     <loc>https://fouen.github.io/python/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fouen.github.io/writeup/htb/hard/reel/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

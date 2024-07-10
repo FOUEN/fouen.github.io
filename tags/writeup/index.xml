@@ -19,6 +19,16 @@
     </item>
     
     <item>
+      <title>Reel</title>
+      <link>https://fouen.github.io/writeup/htb/hard/reel/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/writeup/htb/hard/reel/</guid>
+      <description>Reconocimiento # Nmap # Escaneamos la maquina para ver que puertos tiene abiertos:</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/htb/hard/reel/featured.png" />
+    </item>
+    
+    <item>
       <title>Plunk</title>
       <link>https://fouen.github.io/writeup/vulnhub/plunk/</link>
       <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
