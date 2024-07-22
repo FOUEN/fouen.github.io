@@ -19,6 +19,16 @@
     </item>
     
     <item>
+      <title>Mantis</title>
+      <link>https://fouen.github.io/writeup/htb/hard/mantis/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/writeup/htb/hard/mantis/</guid>
+      <description>Reconocimiento # Nmap # Escaneamos la maquina para ver que puertos tiene abiertos:</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/htb/hard/mantis/featured.png" />
+    </item>
+    
+    <item>
       <title>Sizzle</title>
       <link>https://fouen.github.io/writeup/htb/insane/sizzle/</link>
       <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
