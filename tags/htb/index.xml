@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Fouen</copyright>
-    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/tags/htb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/tags/htb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Insane</title>
+      <link>https://fouen.github.io/writeup/htb/insane/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/writeup/htb/insane/</guid>
+      <description>Resoluciones Insane de Hack the Box</description>
+      
+    </item>
+    
+    <item>
+      <title>Sizzle</title>
+      <link>https://fouen.github.io/writeup/htb/insane/sizzle/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/writeup/htb/insane/sizzle/</guid>
+      <description>Reconocimiento # Nmap # Escaneamos la maquina para ver que puertos tiene abiertos:</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fouen.github.io/writeup/htb/insane/sizzle/featured.png" />
+    </item>
+    
     <item>
       <title>Hard</title>
       <link>https://fouen.github.io/writeup/htb/hard/</link>
