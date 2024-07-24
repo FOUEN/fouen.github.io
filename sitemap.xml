@@ -3,6 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://fouen.github.io/writeup/htb/medium/cascade/</loc>
+    <lastmod>2024-07-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fouen.github.io/writeup/htb/medium/</loc>
+    <lastmod>2024-07-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fouen.github.io/</loc>
+    <lastmod>2024-07-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fouen.github.io/writeup/</loc>
+    <lastmod>2024-07-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fouen.github.io/writeup/htb/insane/</loc>
     <lastmod>2024-07-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -15,19 +39,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fouen.github.io/</loc>
-    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fouen.github.io/writeup/htb/insane/sizzle/</loc>
-    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fouen.github.io/writeup/</loc>
     <lastmod>2024-07-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

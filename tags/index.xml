@@ -7,11 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Fouen</copyright>
-    <lastBuildDate>Mon, 22 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://fouen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cascade</title>
+      <link>https://fouen.github.io/tags/cascade/</link>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/cascade/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Hack My VM</title>
       <link>https://fouen.github.io/tags/hack-my-vm/</link>
-      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>https://fouen.github.io/tags/hack-my-vm/</guid>
       <description></description>
@@ -21,9 +31,49 @@
     <item>
       <title>Hack the Box</title>
       <link>https://fouen.github.io/tags/hack-the-box/</link>
-      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>https://fouen.github.io/tags/hack-the-box/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HTB</title>
+      <link>https://fouen.github.io/tags/htb/</link>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/htb/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Medium</title>
+      <link>https://fouen.github.io/tags/medium/</link>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/medium/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Try Hack Me</title>
+      <link>https://fouen.github.io/tags/try-hack-me/</link>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/try-hack-me/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Writeup</title>
+      <link>https://fouen.github.io/tags/writeup/</link>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouen.github.io/tags/writeup/</guid>
       <description></description>
       
     </item>
@@ -34,16 +84,6 @@
       <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>https://fouen.github.io/tags/hard/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>HTB</title>
-      <link>https://fouen.github.io/tags/htb/</link>
-      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://fouen.github.io/tags/htb/</guid>
       <description></description>
       
     </item>
@@ -74,26 +114,6 @@
       <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>https://fouen.github.io/tags/sizzle/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Try Hack Me</title>
-      <link>https://fouen.github.io/tags/try-hack-me/</link>
-      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://fouen.github.io/tags/try-hack-me/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Writeup</title>
-      <link>https://fouen.github.io/tags/writeup/</link>
-      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://fouen.github.io/tags/writeup/</guid>
       <description></description>
       
     </item>
