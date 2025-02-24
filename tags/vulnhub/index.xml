@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vulnhub on Fouen</title>
-    <link>http://localhost:1313/tags/vulnhub/</link>
+    <link>https://fouen.github.io/tags/vulnhub/</link>
     <description>Recent content in Vulnhub on Fouen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/vulnhub/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fouen.github.io/tags/vulnhub/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Plunk</title>
-      <link>http://localhost:1313/post/plunk/</link>
+      <link>https://fouen.github.io/post/plunk/</link>
       <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/plunk/</guid>
+      <guid>https://fouen.github.io/post/plunk/</guid>
       <description>&lt;h2 id=&#34;reconocimiento&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#reconocimiento&#34;&gt;&lt;/a&gt;&#xA;Reconocimiento&#xA;&lt;/h2&gt;&lt;h3 id=&#34;nmap&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#nmap&#34;&gt;&lt;/a&gt;&#xA;Nmap&#xA;&lt;/h3&gt;&lt;p&gt;Primero vamos a escanear la red para ver que IP tenemos que atacar:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nmap -sn 192.168.1.0/24&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;20240614203246.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Escaneamos la maquina para ver que puertos tiene abiertos;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nmap -p- --open --min-rate &lt;span style=&#34;color:#ae81ff&#34;&gt;5000&lt;/span&gt; -Pn -n 192.168.1.115&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;20240614203349.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Puertos abiertos:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;PORT&lt;/th&gt;&#xA;          &lt;th&gt;PROTOCOL&lt;/th&gt;&#xA;          &lt;th&gt;SERVICE&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;22&lt;/td&gt;&#xA;          &lt;td&gt;TCP&lt;/td&gt;&#xA;          &lt;td&gt;ssh&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;80&lt;/td&gt;&#xA;          &lt;td&gt;TCP&lt;/td&gt;&#xA;          &lt;td&gt;http&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;3306&lt;/td&gt;&#xA;          &lt;td&gt;TCP&lt;/td&gt;&#xA;          &lt;td&gt;mysql&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;5355&lt;/td&gt;&#xA;          &lt;td&gt;TCP&lt;/td&gt;&#xA;          &lt;td&gt;llmnr&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Vamos a ver la web por el puerto 80:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;20240614204235.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;En El apartado About podemos ver que la url redirige a un archivo del sistema, podriamos intentar un LFI:&lt;/p&gt;</description>
     </item>
   </channel>
