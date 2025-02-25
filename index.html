@@ -6,7 +6,7 @@
   
 >
   <head>
-	<meta name="generator" content="Hugo 0.144.1">
+	<meta name="generator" content="Hugo 0.144.2">
     <meta charset="utf-8" />
 <meta
   name="viewport"
@@ -373,17 +373,17 @@
   <div class="sidebar-state-article">
     <div>Posts</div>
     
-    <div class="sidebar-state-number">8</div>
+    <div class="sidebar-state-number">9</div>
   </div>
   <div class="sidebar-state-category">
     <div>Categories</div>
     <div class="sidebar-state-number">
-      2
+      3
     </div>
   </div>
   <div class="sidebar-state-tag">
     <div>Tags</div>
-    <div class="sidebar-state-number">8</div>
+    <div class="sidebar-state-number">10</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -459,6 +459,12 @@
       <h3 class="widget-title">Categories</h3>
       <div class="widget">
         <ul class="category-list">
+          
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/blog/"
+                >Blog</a
+              >
+            </li>
           
             <li class="category-list-item">
               <a class="category-list-link" href="/categories/hackthebox/"
@@ -546,6 +552,26 @@
                 aria-label="Tag: Medium"
               >
                 Medium
+              </a>
+            </li>
+          
+            <li class="tag-item">
+              <a
+                class="tag-link"
+                href="/tags/pypi/"
+                aria-label="Tag: Pypi"
+              >
+                Pypi
+              </a>
+            </li>
+          
+            <li class="tag-item">
+              <a
+                class="tag-link"
+                href="/tags/python/"
+                aria-label="Tag: Python"
+              >
+                Python
               </a>
             </li>
           
@@ -644,6 +670,24 @@
       
         
           <div class="post-categories-wrap">
+            <a class="post-link" href="/categories/portswigger" aria-label=""></a>
+            <div class="post-categories-cover">
+              
+                <img
+                  data-src="/images/portswigger.png"
+                  data-sizes="auto"
+                  alt="portswigger"
+                  class="lazyload"
+                />
+              
+              <h2>portswigger</h2>
+              <h3>0 posts</h3>
+            </div>
+          </div>
+        
+      
+        
+          <div class="post-categories-wrap">
             <a class="post-link" href="/categories/other" aria-label=""></a>
             <div class="post-categories-cover">
               
@@ -659,6 +703,24 @@
               
               <h2>other</h2>
               <h3>2 posts</h3>
+            </div>
+          </div>
+        
+      
+        
+          <div class="post-categories-wrap">
+            <a class="post-link" href="/categories/blog" aria-label=""></a>
+            <div class="post-categories-cover">
+              
+                <img
+                  data-src="/images/blog.png"
+                  data-sizes="auto"
+                  alt="blog"
+                  class="lazyload"
+                />
+              
+              <h2>blog</h2>
+              <h3>1 post</h3>
             </div>
           </div>
         
@@ -880,15 +942,12 @@ nmap -p- --open --min-rate 5000 -Pn -n 10.10.11.8 PORT STATE SERVICE 53/tcp open
       "
     >
       
-        
-        
-          <img
-            data-src="images/perfil.jpg"
-            data-sizes="auto"
-            alt="Sizzle"
-            class="lazyload"
-          />
-        
+        <img
+          data-src="images/sizzle.png"
+          data-sizes="auto"
+          alt=""
+          class="lazyload"
+        />
       
     </div>
     <div class="post-info">
@@ -945,15 +1004,12 @@ nmap -p- --open --min-rate 5000 -Pn -n 10.10.11.8 PORT STATE SERVICE 21/tcp open
       "
     >
       
-        
-        
-          <img
-            data-src="images/perfil.jpg"
-            data-sizes="auto"
-            alt="Reel"
-            class="lazyload"
-          />
-        
+        <img
+          data-src="images/reel.png"
+          data-sizes="auto"
+          alt=""
+          class="lazyload"
+        />
       
     </div>
     <div class="post-info">
@@ -998,8 +1054,8 @@ nmap -p- --open --min-rate 5000 -Pn -n 10.10.10.77 PORT STATE SERVICE 21/tcp ope
     
       <a
         class="post-link"
-        href="https://fouen.github.io/post/plunk/"
-        aria-label="Plunk"
+        href="https://fouen.github.io/post/pypi/"
+        aria-label="¿Cómo subir un paquete a Pypi?"
       >
       </a>
     
@@ -1010,15 +1066,75 @@ nmap -p- --open --min-rate 5000 -Pn -n 10.10.10.77 PORT STATE SERVICE 21/tcp ope
       "
     >
       
+        <img
+          data-src="images/pypi.png"
+          data-sizes="auto"
+          alt=""
+          class="lazyload"
+        />
+      
+    </div>
+    <div class="post-info">
+      <div class="post-meta">
+        <span
+          ><span class="icon-calendar"></span
+          >2024-06-17</span
+        >
+        <span
+          ><span class="icon-pencil"></span
+          >243 words</span
+        >
+        <span
+          ><span class="icon-clock"></span
+          >2 mins</span
+        >
+      </div>
+      <h2 class="post-title">¿Cómo subir un paquete a Pypi?</h2>
+      <article class="post-article">
         
+           Configuración básica Iniciar sesión en pypi
+Crear un token:
+graph LR; A[Perfil]-->B[Account settings]; B-->C[API tokens] Crear un archivo .pypirc en /root: [pypi] username = __token__ password = (token) Creación del paquete Crea la carpeta principal: mkdir proyecto1 Dentro de esta crea la carpeta …
         
-          <img
-            data-src="images/perfil.jpg"
-            data-sizes="auto"
-            alt="Plunk"
-            class="lazyload"
-          />
-        
+      </article>
+    </div>
+  </div>
+</div>
+
+  
+    
+
+
+
+
+<div class="post-wrapper">
+  <div
+    class="
+      post-wrap-left
+    "
+    data-aos="fade-up"
+  >
+    
+      <a
+        class="post-link"
+        href="https://fouen.github.io/post/plunk/"
+        aria-label="Plunk"
+      >
+      </a>
+    
+    
+    <div
+      class="
+        post-cover-left
+      "
+    >
+      
+        <img
+          data-src="images/vulnhub.png"
+          data-sizes="auto"
+          alt=""
+          class="lazyload"
+        />
       
     </div>
     <div class="post-info">
@@ -1058,7 +1174,7 @@ PORT PROTOCOL SERVICE 22 TCP ssh 80 TCP http 3306 TCP …
 <div class="post-wrapper">
   <div
     class="
-      post-wrap-left
+      post-wrap-right
     "
     data-aos="fade-up"
   >
@@ -1073,19 +1189,16 @@ PORT PROTOCOL SERVICE 22 TCP ssh 80 TCP http 3306 TCP …
     
     <div
       class="
-        post-cover-left
+        post-cover-right
       "
     >
       
-        
-        
-          <img
-            data-src="images/perfil.jpg"
-            data-sizes="auto"
-            alt="Headless"
-            class="lazyload"
-          />
-        
+        <img
+          data-src="images/headless.png"
+          data-sizes="auto"
+          alt=""
+          class="lazyload"
+        />
       
     </div>
     <div class="post-info">
@@ -1124,7 +1237,7 @@ Suponemos que el puerto 5000 es de una web, vamos al navegador y ponemos la ip c
 <div class="post-wrapper">
   <div
     class="
-      post-wrap-right
+      post-wrap-left
     "
     data-aos="fade-up"
   >
@@ -1139,19 +1252,16 @@ Suponemos que el puerto 5000 es de una web, vamos al navegador y ponemos la ip c
     
     <div
       class="
-        post-cover-right
+        post-cover-left
       "
     >
       
-        
-        
-          <img
-            data-src="images/perfil.jpg"
-            data-sizes="auto"
-            alt="CTF_07 CaixaBank"
-            class="lazyload"
-          />
-        
+        <img
+          data-src="images/caixa.png"
+          data-sizes="auto"
+          alt=""
+          class="lazyload"
+        />
       
     </div>
     <div class="post-info">
@@ -1243,6 +1353,9 @@ Ver cadenas legibles Vamos a utilizar la utilidad strings antes de nada para ver
   
   
 
+  
+  
+
 
 
 <footer id="footer">
@@ -1262,7 +1375,7 @@ Ver cadenas legibles Vamos a utilizar la utilidad strings antes de nada para ver
       <div>
         <span class="icon-brush"
           >&nbsp;
-            6.8k
+            7.0k
           </span
         >
         &nbsp;|&nbsp;
@@ -1270,7 +1383,7 @@ Ver cadenas legibles Vamos a utilizar la utilidad strings antes de nada para ver
           
           
 
-          00:36
+          00:38
         </span>
       </div>
     
@@ -1306,17 +1419,17 @@ Ver cadenas legibles Vamos a utilizar la utilidad strings antes de nada para ver
   <div class="sidebar-state-article">
     <div>Posts</div>
     
-    <div class="sidebar-state-number">8</div>
+    <div class="sidebar-state-number">9</div>
   </div>
   <div class="sidebar-state-category">
     <div>Categories</div>
     <div class="sidebar-state-number">
-      2
+      3
     </div>
   </div>
   <div class="sidebar-state-tag">
     <div>Tags</div>
-    <div class="sidebar-state-number">8</div>
+    <div class="sidebar-state-number">10</div>
   </div>
 </div>
 <div class="sidebar-social">

@@ -23,9 +23,6 @@
     <loc>https://fouen.github.io/post/book/</loc>
     <lastmod>2024-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/tags/hackthebox/</loc>
-    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://fouen.github.io/tags/medium/</loc>
     <lastmod>2024-08-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -34,6 +31,9 @@
   </url><url>
     <loc>https://fouen.github.io/post/cascade/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fouen.github.io/tags/hackthebox/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouen.github.io/tags/hard/</loc>
     <lastmod>2024-07-22T00:00:00+00:00</lastmod>
@@ -49,6 +49,18 @@
   </url><url>
     <loc>https://fouen.github.io/post/reel/</loc>
     <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fouen.github.io/post/pypi/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fouen.github.io/categories/blog/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fouen.github.io/tags/pypi/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fouen.github.io/tags/python/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouen.github.io/post/plunk/</loc>
     <lastmod>2024-06-14T00:00:00+00:00</lastmod>
