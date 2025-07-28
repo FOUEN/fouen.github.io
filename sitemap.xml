@@ -3,7 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://fouen.github.io/categories/</loc>
-    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fouen.github.io/tags/</loc>
+    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fouen.github.io/tags/web/</loc>
+    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fouen.github.io/tags/wwctf/</loc>
+    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fouen.github.io/post/ctf/wwctf/domain_of_doom_revenge/</loc>
+    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouen.github.io/categories/hackthebox/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
@@ -17,16 +29,16 @@
     <loc>https://fouen.github.io/post/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/categories/other/</loc>
+    <loc>https://fouen.github.io/categories/ctf/</loc>
+    <lastmod>2025-02-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fouen.github.io/categories/portswigger/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouen.github.io/post/book/</loc>
     <lastmod>2024-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouen.github.io/tags/medium/</loc>
-    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://fouen.github.io/tags/</loc>
     <lastmod>2024-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouen.github.io/post/cascade/</loc>
@@ -61,12 +73,6 @@
   </url><url>
     <loc>https://fouen.github.io/tags/python/</loc>
     <lastmod>2024-06-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://fouen.github.io/post/plunk/</loc>
-    <lastmod>2024-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://fouen.github.io/tags/vulnhub/</loc>
-    <lastmod>2024-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fouen.github.io/tags/easy/</loc>
     <lastmod>2024-06-13T00:00:00+00:00</lastmod>

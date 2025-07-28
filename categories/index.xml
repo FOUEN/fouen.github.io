@@ -16,10 +16,17 @@
       <description></description>
     </item>
     <item>
-      <title>Other CTF</title>
-      <link>https://fouen.github.io/categories/other/</link>
+      <title>ctf</title>
+      <link>https://fouen.github.io/categories/ctf/</link>
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://fouen.github.io/categories/other/</guid>
+      <guid>https://fouen.github.io/categories/ctf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portswigger Labs</title>
+      <link>https://fouen.github.io/categories/portswigger/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://fouen.github.io/categories/portswigger/</guid>
       <description></description>
     </item>
     <item>
