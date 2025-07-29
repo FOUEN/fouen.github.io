@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Insane on Fouen</title>
-    <link>https://fouen.github.io/tags/insane/</link>
+    <link>http://localhost:1313/tags/insane/</link>
     <description>Recent content in Insane on Fouen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://fouen.github.io/tags/insane/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/insane/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sizzle</title>
-      <link>https://fouen.github.io/post/sizzle/</link>
+      <link>http://localhost:1313/post/sizzle/</link>
       <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://fouen.github.io/post/sizzle/</guid>
+      <guid>http://localhost:1313/post/sizzle/</guid>
       <description>&lt;h2 id=&#34;reconocimiento&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#reconocimiento&#34;&gt;&lt;/a&gt;&#xA;Reconocimiento&#xA;&lt;/h2&gt;&lt;h3 id=&#34;nmap&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#nmap&#34;&gt;&lt;/a&gt;&#xA;Nmap&#xA;&lt;/h3&gt;&lt;p&gt;Escaneamos la maquina para ver que puertos tiene abiertos:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nmap -p- --open --min-rate &lt;span style=&#34;color:#ae81ff&#34;&gt;5000&lt;/span&gt; -Pn -n 10.10.11.8&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;PORT      STATE SERVICE&#xA;21/tcp    open  ftp&#xA;53/tcp    open  domain&#xA;80/tcp    open  http&#xA;135/tcp   open  msrpc&#xA;139/tcp   open  netbios-ssn&#xA;389/tcp   open  ldap&#xA;443/tcp   open  https&#xA;445/tcp   open  microsoft-ds&#xA;464/tcp   open  kpasswd5&#xA;593/tcp   open  http-rpc-epmap&#xA;636/tcp   open  ldapssl&#xA;3268/tcp  open  globalcatLDAP&#xA;3269/tcp  open  globalcatLDAPssl&#xA;5985/tcp  open  wsman&#xA;5986/tcp  open  wsmans&#xA;9389/tcp  open  adws&#xA;47001/tcp open  winrm&#xA;49664/tcp open  unknown&#xA;49665/tcp open  unknown&#xA;49666/tcp open  unknown&#xA;49670/tcp open  unknown&#xA;49673/tcp open  unknown&#xA;49690/tcp open  unknown&#xA;49691/tcp open  unknown&#xA;49692/tcp open  unknown&#xA;49699/tcp open  unknown&#xA;49700/tcp open  unknown&#xA;49719/tcp open  unknown&#xA;49721/tcp open  unknown&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;ftp&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#ftp&#34;&gt;&lt;/a&gt;&#xA;FTP&#xA;&lt;/h3&gt;&lt;p&gt;Probamos a entrar con el usuario anonymous:&lt;/p&gt;</description>
     </item>
   </channel>

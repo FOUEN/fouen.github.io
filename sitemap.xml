@@ -2,91 +2,91 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fouen.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-07-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-07-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/tags/web/</loc>
+    <loc>http://localhost:1313/tags/web/</loc>
     <lastmod>2025-07-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/tags/wwctf/</loc>
+    <loc>http://localhost:1313/tags/wwctf/</loc>
     <lastmod>2025-07-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/post/ctf/wwctf/domain_of_doom_revenge/</loc>
+    <loc>http://localhost:1313/post/ctf/wwctf/domain_of_doom_revenge/</loc>
     <lastmod>2025-07-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/categories/hackthebox/</loc>
+    <loc>http://localhost:1313/categories/hackthebox/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/categories/ctf/</loc>
+    <loc>http://localhost:1313/categories/ctf/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/categories/portswigger/</loc>
+    <loc>http://localhost:1313/categories/portswigger/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/post/book/</loc>
+    <loc>http://localhost:1313/post/book/</loc>
     <lastmod>2024-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/tags/medium/</loc>
+    <loc>http://localhost:1313/tags/medium/</loc>
     <lastmod>2024-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/post/cascade/</loc>
+    <loc>http://localhost:1313/post/cascade/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/tags/hackthebox/</loc>
+    <loc>http://localhost:1313/tags/hackthebox/</loc>
     <lastmod>2024-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/tags/hard/</loc>
+    <loc>http://localhost:1313/tags/hard/</loc>
     <lastmod>2024-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/tags/insane/</loc>
+    <loc>http://localhost:1313/tags/insane/</loc>
     <lastmod>2024-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/post/mantis/</loc>
+    <loc>http://localhost:1313/post/mantis/</loc>
     <lastmod>2024-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/post/sizzle/</loc>
+    <loc>http://localhost:1313/post/sizzle/</loc>
     <lastmod>2024-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/post/reel/</loc>
+    <loc>http://localhost:1313/post/reel/</loc>
     <lastmod>2024-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/post/pypi/</loc>
+    <loc>http://localhost:1313/post/pypi/</loc>
     <lastmod>2024-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/categories/blog/</loc>
+    <loc>http://localhost:1313/categories/blog/</loc>
     <lastmod>2024-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/tags/pypi/</loc>
+    <loc>http://localhost:1313/tags/pypi/</loc>
     <lastmod>2024-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/tags/python/</loc>
+    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2024-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/tags/easy/</loc>
+    <loc>http://localhost:1313/tags/easy/</loc>
     <lastmod>2024-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/post/headless/</loc>
+    <loc>http://localhost:1313/post/headless/</loc>
     <lastmod>2024-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/tags/caixabank/</loc>
+    <loc>http://localhost:1313/tags/caixabank/</loc>
     <lastmod>2024-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/post/ctf_07/</loc>
+    <loc>http://localhost:1313/post/ctf_07/</loc>
     <lastmod>2024-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fouen.github.io/tags/reversing/</loc>
+    <loc>http://localhost:1313/tags/reversing/</loc>
     <lastmod>2024-05-26T00:00:00+00:00</lastmod>
   </url>
 </urlset>
