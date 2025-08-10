@@ -2,38 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Fouen</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://fouen.github.io/categories/</link>
     <description>Recent content in Categories on Fouen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://fouen.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://fouen.github.io/categories/programming/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://fouen.github.io/categories/programming/</guid>
+      <description>&lt;h2 id=&#34;_indexmd&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#_indexmd&#34;&gt;&lt;/a&gt;&#xA;_index.md&#xA;&lt;/h2&gt;&lt;h2 id=&#34;date-2025-08-10&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#date-2025-08-10&#34;&gt;&lt;/a&gt;&#xA;title: &amp;ldquo;programming&amp;rdquo;&#xA;date: 2025-08-10&#xA;&lt;/h2&gt;</description>
+    </item>
     <item>
       <title>HackTheBox</title>
-      <link>http://localhost:1313/categories/hackthebox/</link>
+      <link>https://fouen.github.io/categories/hackthebox/</link>
       <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/hackthebox/</guid>
+      <guid>https://fouen.github.io/categories/hackthebox/</guid>
       <description></description>
     </item>
     <item>
       <title>ctf</title>
-      <link>http://localhost:1313/categories/ctf/</link>
+      <link>https://fouen.github.io/categories/ctf/</link>
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ctf/</guid>
+      <guid>https://fouen.github.io/categories/ctf/</guid>
       <description></description>
     </item>
     <item>
       <title>Portswigger Labs</title>
-      <link>http://localhost:1313/categories/portswigger/</link>
+      <link>https://fouen.github.io/categories/portswigger/</link>
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/portswigger/</guid>
+      <guid>https://fouen.github.io/categories/portswigger/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>http://localhost:1313/categories/blog/</link>
+      <link>https://fouen.github.io/categories/blog/</link>
       <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/blog/</guid>
+      <guid>https://fouen.github.io/categories/blog/</guid>
       <description></description>
     </item>
   </channel>
