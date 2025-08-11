@@ -6,8 +6,15 @@
     <description>Recent content on Fouen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://fouen.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode - Fruits Into Baskets II</title>
+      <link>https://fouen.github.io/post/programming/f_i_b_ii/</link>
+      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://fouen.github.io/post/programming/f_i_b_ii/</guid>
+      <description>&lt;h1 id=&#34;leetcode---fruits-into-baskets-ii&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#leetcode---fruits-into-baskets-ii&#34;&gt;&lt;/a&gt;&#xA;Leetcode - Fruits Into Baskets II&#xA;&lt;/h1&gt;&lt;h2 id=&#34;description&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#description&#34;&gt;&lt;/a&gt;&#xA;Description&#xA;&lt;/h2&gt;&lt;p&gt;&lt;em&gt;You are given two arrays of integers, &lt;code&gt;fruits&lt;/code&gt; and &lt;code&gt;baskets&lt;/code&gt;, each of length &lt;code&gt;n&lt;/code&gt;, where &lt;code&gt;fruits[i]&lt;/code&gt; represents the &lt;strong&gt;quantity&lt;/strong&gt; of the &lt;code&gt;ith&lt;/code&gt; type of fruit, and &lt;code&gt;baskets[j]&lt;/code&gt; represents the &lt;strong&gt;capacity&lt;/strong&gt; of the &lt;code&gt;jth&lt;/code&gt; basket.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;From left to right, place the fruits according to these rules:&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Each fruit type must be placed in the &lt;strong&gt;leftmost available basket&lt;/strong&gt; with a capacity &lt;strong&gt;greater than or equal&lt;/strong&gt; to the quantity of that fruit type.&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Each basket can hold &lt;strong&gt;only one&lt;/strong&gt; type of fruit.&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;If a fruit type &lt;strong&gt;cannot be placed&lt;/strong&gt; in any basket, it remains &lt;strong&gt;unplaced&lt;/strong&gt;.&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;Return the number of fruit types that remain unplaced after all possible allocations are made.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Leetcode - Contains Duplicate</title>
       <link>https://fouen.github.io/post/programming/contains_duplicate/</link>
