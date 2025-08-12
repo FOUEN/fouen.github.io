@@ -3,10 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/easy/</loc>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/programming/power_of_two/</loc>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/programming/</loc>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/programming/f_i_b_ii/</loc>
+    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/programming/contains_duplicate/</loc>
+    <lastmod>2025-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/programming/</loc>
+    <lastmod>2025-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/web/</loc>
     <lastmod>2025-07-28T00:00:00+00:00</lastmod>
@@ -35,13 +53,13 @@
     <loc>http://localhost:1313/categories/portswigger/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/book/</loc>
+    <loc>http://localhost:1313/post/hackthebox/book/</loc>
     <lastmod>2024-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/medium/</loc>
     <lastmod>2024-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/cascade/</loc>
+    <loc>http://localhost:1313/post/hackthebox/cascade/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/hackthebox/</loc>
@@ -53,16 +71,16 @@
     <loc>http://localhost:1313/tags/insane/</loc>
     <lastmod>2024-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/mantis/</loc>
+    <loc>http://localhost:1313/post/hackthebox/mantis/</loc>
     <lastmod>2024-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sizzle/</loc>
+    <loc>http://localhost:1313/post/hackthebox/sizzle/</loc>
     <lastmod>2024-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/reel/</loc>
+    <loc>http://localhost:1313/post/hackthebox/reel/</loc>
     <lastmod>2024-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/pypi/</loc>
+    <loc>http://localhost:1313/post/blog/pypi/</loc>
     <lastmod>2024-06-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/blog/</loc>
@@ -74,16 +92,13 @@
     <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2024-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/easy/</loc>
-    <lastmod>2024-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/headless/</loc>
+    <loc>http://localhost:1313/post/hackthebox/headless/</loc>
     <lastmod>2024-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/caixabank/</loc>
     <lastmod>2024-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/ctf_07/</loc>
+    <loc>http://localhost:1313/post/ctf/ctf_07/</loc>
     <lastmod>2024-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/reversing/</loc>
