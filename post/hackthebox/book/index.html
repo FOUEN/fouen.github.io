@@ -155,7 +155,7 @@
 
 
   
- <link rel="stylesheet" href="/css/main.min.7b6828da25ebf17aaa1c6522076809e08d2cdc057a9084a0154b53df0166608a.css" />
+ <link rel="stylesheet" href="/css/main.min.8c20df3b49214b6a60e9713b969bba46f323b1aa17f0f3fe02d14500a9aa5dd2.css" />
 
 
 
@@ -396,12 +396,12 @@
   <div class="sidebar-state-category">
     <div>Categories</div>
     <div class="sidebar-state-number">
-      4
+      3
     </div>
   </div>
   <div class="sidebar-state-tag">
     <div>Tags</div>
-    <div class="sidebar-state-number">12</div>
+    <div class="sidebar-state-number">11</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -581,7 +581,8 @@ SQL Truncation
 <p>Esto nos da una pista que se puede acontecer un <code>SQL Truncation</code></p>
 <blockquote>
 <p>Que es?
-Es una vulnerabilidad donde, debido a un límite de longitud en una columna de la base de datos, se trunca el valor ingresado. Esto puede ser explotado para cambiar o bypass ciertos controles. Por ejemplo, si intentas crear un usuario con un nombre muy largo, el sistema podría truncarlo, permitiendo que alguien cree una cuenta con un nombre similar al de un usuario existente y, potencialmente, acceder a sus privilegios.</p></blockquote>
+Es una vulnerabilidad donde, debido a un límite de longitud en una columna de la base de datos, se trunca el valor ingresado. Esto puede ser explotado para cambiar o bypass ciertos controles. Por ejemplo, si intentas crear un usuario con un nombre muy largo, el sistema podría truncarlo, permitiendo que alguien cree una cuenta con un nombre similar al de un usuario existente y, potencialmente, acceder a sus privilegios.</p>
+</blockquote>
 <p>Vamos a ver si funciona para crear otro usuario admin con la contraseña que pongamos nosotros</p>
 <p>Para esto vamos a interceptar la petición con <code>burpsuite</code> y así la podemos modificar</p>
 <p><img src="img/burp.png" alt=""></p>
@@ -774,7 +775,7 @@ root
       <div>
         <span class="icon-brush"
           >&nbsp;
-            7.4k
+            8.1k
           </span
         >
         &nbsp;|&nbsp;
@@ -782,7 +783,7 @@ root
           
           
 
-          00:41
+          00:44
         </span>
       </div>
     
@@ -848,12 +849,12 @@ root
   <div class="sidebar-state-category">
     <div>Categories</div>
     <div class="sidebar-state-number">
-      4
+      3
     </div>
   </div>
   <div class="sidebar-state-tag">
     <div>Tags</div>
-    <div class="sidebar-state-number">12</div>
+    <div class="sidebar-state-number">11</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -1123,7 +1124,7 @@ root
           author: "Fouen",
           title: "Book",
           url: "https:\/\/fouen.github.io\/post\/hackthebox\/book\/",
-          description: " Reconocimiento Nmap Escaneamos la maquina para ver que puertos tiene abiertos:\nnmap -p- --open --min-rate 5000 -Pn -n 10.10.10.176 PORT STATE SERVICE 22\/tcp open ssh 80\/tcp open http Gobuster Uso gobuster para hacer fuzzing para ver posibles directorios o archivos ocultos:\ngobuster dir -w …",
+          description: "\rReconocimiento\rNmap\rEscaneamos la maquina para ver que puertos tiene abiertos:\nnmap -p- --open --min-rate 5000 -Pn -n 10.10.10.176 PORT STATE SERVICE\r22\/tcp open ssh\r80\/tcp open http Gobuster\rUso gobuster para hacer fuzzing para ver posibles directorios o archivos ocultos:\ngobuster dir -w …",
           cover: "https:\/\/fouen.github.io\/images\/book.png",
         };
       </script>
