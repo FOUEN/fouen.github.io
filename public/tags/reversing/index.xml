@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reversing on Fouen</title>
+    <link>https://fouen.github.io/tags/reversing/</link>
+    <description>Recent content in Reversing on Fouen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://fouen.github.io/tags/reversing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CTF_07 CaixaBank</title>
+      <link>https://fouen.github.io/post/ctf/ctf_07/</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://fouen.github.io/post/ctf/ctf_07/</guid>
+      <description>&lt;h1 id=&#34;resolución-ctf-caixabank-tech-07&#34;&gt;&#xD;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#resoluci%c3%b3n-ctf-caixabank-tech-07&#34;&gt;&lt;/a&gt;&#xD;&#xA;Resolución CTF CaixaBank Tech 07&#xD;&#xA;&lt;/h1&gt;&lt;h2 id=&#34;ejecución-de-binario&#34;&gt;&#xD;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#ejecuci%c3%b3n-de-binario&#34;&gt;&lt;/a&gt;&#xD;&#xA;Ejecución de binario&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;Nos dan un binario llamado crackme, le damos permisos de ejecución&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;chmod +x crackme&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Lo ejecutamos:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;20240525184418.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Vemos que nos pide una contraseña&lt;/p&gt;&#xA;&lt;h2 id=&#34;ver-cadenas-legibles&#34;&gt;&#xD;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#ver-cadenas-legibles&#34;&gt;&lt;/a&gt;&#xD;&#xA;Ver cadenas legibles&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;Vamos a utilizar la utilidad strings antes de nada para ver si podemos ver alguna cadena que nos llame la atención:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;20240525184909.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;20240525184938.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Vemos algunas cadenas de texto interesantes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Welcome to the bank platform!&lt;/li&gt;&#xA;&lt;li&gt;Enter your the secret key:  &lt;/li&gt;&#xA;&lt;li&gt;Congratulations! You now have access to the plaftorm!&lt;/li&gt;&#xA;&lt;li&gt;Wrong key. I hope you are not a bank thief!&lt;/li&gt;&#xA;&lt;li&gt;ABCDEFGH&lt;/li&gt;&#xA;&lt;li&gt;IJKLMNOP&lt;/li&gt;&#xA;&lt;li&gt;QRSTUVWX&lt;/li&gt;&#xA;&lt;li&gt;YZabcdef&lt;/li&gt;&#xA;&lt;li&gt;ghijklmn&lt;/li&gt;&#xA;&lt;li&gt;opqrstuv&lt;/li&gt;&#xA;&lt;li&gt;wxyz0123&lt;/li&gt;&#xA;&lt;li&gt;456789+/&lt;/li&gt;&#xA;&lt;li&gt;PDY7PSEx&lt;/li&gt;&#xA;&lt;li&gt;aSMFLGko&lt;/li&gt;&#xA;&lt;li&gt;GkoIwUpa&lt;/li&gt;&#xA;&lt;li&gt;TkoaS4n&lt;/li&gt;&#xA;&lt;li&gt;xor_encrypt&lt;/li&gt;&#xA;&lt;li&gt;base64_encrypt&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;uso-de-ltrace&#34;&gt;&#xD;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#uso-de-ltrace&#34;&gt;&lt;/a&gt;&#xD;&#xA;Uso de ltrace&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;Ahora vamos a utilizar la herramienta &lt;code&gt;ltrace&lt;/code&gt; para ver mas a fondo el programa como funciona por dentro:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Fouen</title>
+    <link>https://fouen.github.io/tags/</link>
+    <description>Recent content in Tags on Fouen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://fouen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hacklu</title>
+      <link>https://fouen.github.io/tags/hacklu/</link>
+      <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://fouen.github.io/tags/hacklu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>https://fouen.github.io/tags/web/</link>
+      <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://fouen.github.io/tags/web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Easy</title>
+      <link>https://fouen.github.io/tags/easy/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://fouen.github.io/tags/easy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://fouen.github.io/tags/programming/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://fouen.github.io/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wwctf</title>
+      <link>https://fouen.github.io/tags/wwctf/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://fouen.github.io/tags/wwctf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Medium</title>
+      <link>https://fouen.github.io/tags/medium/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://fouen.github.io/tags/medium/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hackthebox</title>
+      <link>https://fouen.github.io/tags/hackthebox/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://fouen.github.io/tags/hackthebox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hard</title>
+      <link>https://fouen.github.io/tags/hard/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://fouen.github.io/tags/hard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Insane</title>
+      <link>https://fouen.github.io/tags/insane/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://fouen.github.io/tags/insane/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CaixaBank</title>
+      <link>https://fouen.github.io/tags/caixabank/</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://fouen.github.io/tags/caixabank/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reversing</title>
+      <link>https://fouen.github.io/tags/reversing/</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://fouen.github.io/tags/reversing/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
