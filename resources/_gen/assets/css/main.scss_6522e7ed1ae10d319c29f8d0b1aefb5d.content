@@ -2046,18 +2046,18 @@ pre code {
 .article-entry code,
 .article-entry kbd {
   background: var(--color-code-background);
-  padding: 1px 5px;
-  border-radius: 5px;
+  padding: 3px 8px;
+  border-radius: 6px;
   color: var(--color-link);
 }
 
 .article-entry pre {
   background: var(--highlight-background);
   padding: 0 20px 15px;
-  border-radius: 10px;
+  border-radius: 8px;
   color: var(--highlight-foreground);
   line-height: 1.8em;
-  border-radius: 0;
+  border-radius: 8px;
 }
 
 .article-entry pre code {
@@ -2070,15 +2070,16 @@ pre code {
 .article-entry div.highlight {
   background: var(--highlight-background);
   padding: 0 20px 15px;
-  border-radius: 10px;
+  border-radius: 8px;
   color: var(--highlight-foreground);
   line-height: 1.8em;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0;
   margin-inline-end: 0;
-  transition: 0.3s;
+  transition: all 0.3s ease;
   interpolate-size: allow-keywords;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .article-entry div.highlight.code-closed pre {
@@ -2088,7 +2089,8 @@ pre code {
 }
 
 .article-entry div.highlight:hover {
-  box-shadow: 0 0.3125rem 0.625rem -0.125rem var(--highlight-scrollbar);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  transform: translateY(-2px);
 }
 
 .article-entry div.highlight ::-webkit-scrollbar {
@@ -2098,12 +2100,12 @@ pre code {
 }
 
 .article-entry div.highlight ::-webkit-scrollbar-track {
-  border-radius: 10px;
+  border-radius: 8px;
   background-color: transparent;
 }
 
 .article-entry div.highlight ::-webkit-scrollbar-thumb {
-  border-radius: 10px;
+  border-radius: 8px;
   background-color: var(--highlight-scrollbar);
 }
 
@@ -2111,7 +2113,7 @@ pre code {
   border: none;
   margin: 0;
   padding: 0;
-  border-radius: 0;
+  border-radius: inherit;
 }
 
 .article-entry div.highlight table {

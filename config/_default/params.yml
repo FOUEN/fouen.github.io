@@ -430,12 +430,12 @@ home_categories:
   content:
     - categories: hackthebox # string (single-layer category) or array (multi-layer category)
       cover: images/hackthebox.png # empty means random cover
-    - categories: portswigger
-      cover: images/portswigger.png
+#    - categories: portswigger
+#      cover: images/portswigger.png
     - categories: programming
       cover: images/programming.png
-    - categories: blog
-      cover: images/blog.png
+#    - categories: blog
+#      cover: images/blog.png
     - categories: ctf
       cover: images/ctf.png
 
