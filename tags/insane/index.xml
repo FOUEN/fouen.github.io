@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Insane on Fouen</title>
+    <link>https://fouen.github.io/tags/insane/</link>
+    <description>Recent content in Insane on Fouen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://fouen.github.io/tags/insane/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sizzle</title>
+      <link>https://fouen.github.io/post/hackthebox/sizzle/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://fouen.github.io/post/hackthebox/sizzle/</guid>
+      <description>&lt;h2 id=&#34;reconocimiento&#34;&gt;&#xD;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#reconocimiento&#34;&gt;&lt;/a&gt;&#xD;&#xA;Reconocimiento&#xD;&#xA;&lt;/h2&gt;&lt;h3 id=&#34;nmap&#34;&gt;&#xD;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#nmap&#34;&gt;&lt;/a&gt;&#xD;&#xA;Nmap&#xD;&#xA;&lt;/h3&gt;&lt;p&gt;Escaneamos la maquina para ver que puertos tiene abiertos:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nmap -p- --open --min-rate &lt;span style=&#34;color:#ae81ff&#34;&gt;5000&lt;/span&gt; -Pn -n 10.10.11.8&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;PORT      STATE SERVICE&#xD;&#xA;21/tcp    open  ftp&#xD;&#xA;53/tcp    open  domain&#xD;&#xA;80/tcp    open  http&#xD;&#xA;135/tcp   open  msrpc&#xD;&#xA;139/tcp   open  netbios-ssn&#xD;&#xA;389/tcp   open  ldap&#xD;&#xA;443/tcp   open  https&#xD;&#xA;445/tcp   open  microsoft-ds&#xD;&#xA;464/tcp   open  kpasswd5&#xD;&#xA;593/tcp   open  http-rpc-epmap&#xD;&#xA;636/tcp   open  ldapssl&#xD;&#xA;3268/tcp  open  globalcatLDAP&#xD;&#xA;3269/tcp  open  globalcatLDAPssl&#xD;&#xA;5985/tcp  open  wsman&#xD;&#xA;5986/tcp  open  wsmans&#xD;&#xA;9389/tcp  open  adws&#xD;&#xA;47001/tcp open  winrm&#xD;&#xA;49664/tcp open  unknown&#xD;&#xA;49665/tcp open  unknown&#xD;&#xA;49666/tcp open  unknown&#xD;&#xA;49670/tcp open  unknown&#xD;&#xA;49673/tcp open  unknown&#xD;&#xA;49690/tcp open  unknown&#xD;&#xA;49691/tcp open  unknown&#xD;&#xA;49692/tcp open  unknown&#xD;&#xA;49699/tcp open  unknown&#xD;&#xA;49700/tcp open  unknown&#xD;&#xA;49719/tcp open  unknown&#xD;&#xA;49721/tcp open  unknown&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;ftp&#34;&gt;&#xD;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#ftp&#34;&gt;&lt;/a&gt;&#xD;&#xA;FTP&#xD;&#xA;&lt;/h3&gt;&lt;p&gt;Probamos a entrar con el usuario anonymous:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

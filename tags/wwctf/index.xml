@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wwctf on Fouen</title>
+    <link>https://fouen.github.io/tags/wwctf/</link>
+    <description>Recent content in Wwctf on Fouen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://fouen.github.io/tags/wwctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>wwctf - Domain of Doom Revenge</title>
+      <link>https://fouen.github.io/post/ctf/wwctf/domain_of_doom_revenge/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://fouen.github.io/post/ctf/wwctf/domain_of_doom_revenge/</guid>
+      <description>&lt;h1 id=&#34;domain-of-doom-revenge&#34;&gt;&#xD;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#domain-of-doom-revenge&#34;&gt;&lt;/a&gt;&#xD;&#xA;Domain of Doom Revenge&#xD;&#xA;&lt;/h1&gt;&lt;h2 id=&#34;description&#34;&gt;&#xD;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#description&#34;&gt;&lt;/a&gt;&#xD;&#xA;Description&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;&lt;em&gt;You&amp;rsquo;re querying domains, but some lead to dangerous places&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;The flag is hidden in an environment variable.&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;solve&#34;&gt;&#xD;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#solve&#34;&gt;&lt;/a&gt;&#xD;&#xA;Solve&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;They provided us with the source code of the web application.&lt;/p&gt;&#xA;&lt;p&gt;Here, we can see a regular expression that attempts to sanitize the input, which is then inserted into the following command: &lt;code&gt;dig +short -t A {your_input}&lt;/code&gt;. Due to the malformed regex, we can bypass it and achieve command injection.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
