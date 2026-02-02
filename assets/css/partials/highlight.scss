@@ -1,7 +1,7 @@
 @mixin code-block {
   background: var(--highlight-background);
   padding: 0 $article-padding 15px;
-  border-radius: 8px;
+  border-radius: 16px;
   //overflow: auto;
   color: var(--highlight-foreground);
   line-height: $line-height;
@@ -30,7 +30,7 @@
 
   pre {
     @include code-block;
-    border-radius: 8px;
+    border-radius: 16px;
 
     code {
       background: none;
@@ -70,12 +70,12 @@
     }
 
     ::-webkit-scrollbar-track {
-      border-radius: 8px;
+      border-radius: 16px;
       background-color: transparent;
     }
 
     ::-webkit-scrollbar-thumb {
-      border-radius: 8px;
+      border-radius: 16px;
       background-color: var(--highlight-scrollbar);
     }
 

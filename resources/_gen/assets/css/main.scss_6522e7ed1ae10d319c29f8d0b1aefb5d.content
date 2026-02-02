@@ -2054,10 +2054,10 @@ pre code {
 .article-entry pre {
   background: var(--highlight-background);
   padding: 0 20px 15px;
-  border-radius: 8px;
+  border-radius: 16px;
   color: var(--highlight-foreground);
   line-height: 1.8em;
-  border-radius: 8px;
+  border-radius: 16px;
 }
 
 .article-entry pre code {
@@ -2070,7 +2070,7 @@ pre code {
 .article-entry div.highlight {
   background: var(--highlight-background);
   padding: 0 20px 15px;
-  border-radius: 8px;
+  border-radius: 16px;
   color: var(--highlight-foreground);
   line-height: 1.8em;
   margin-block-start: 1em;
@@ -2100,12 +2100,12 @@ pre code {
 }
 
 .article-entry div.highlight ::-webkit-scrollbar-track {
-  border-radius: 8px;
+  border-radius: 16px;
   background-color: transparent;
 }
 
 .article-entry div.highlight ::-webkit-scrollbar-thumb {
-  border-radius: 8px;
+  border-radius: 16px;
   background-color: var(--highlight-scrollbar);
 }
 

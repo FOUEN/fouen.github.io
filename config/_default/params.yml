@@ -428,12 +428,12 @@ share:
 home_categories:
   enable: true
   content:
-    - categories: hackthebox # string (single-layer category) or array (multi-layer category)
-      cover: images/hackthebox.png # empty means random cover
+#    - categories: hackthebox # string (single-layer category) or array (multi-layer category)
+#      cover: images/hackthebox.png # empty means random cover
 #    - categories: portswigger
 #      cover: images/portswigger.png
-    - categories: programming
-      cover: images/programming.png
+#    - categories: programming
+#      cover: images/programming.png
 #    - categories: blog
 #      cover: images/blog.png
     - categories: ctf
