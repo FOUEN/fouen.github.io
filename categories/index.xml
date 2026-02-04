@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Fouen</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://fouen.github.io/categories/</link>
     <description>Recent content in Categories on Fouen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fouen.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>programming</title>
-      <link>http://localhost:1313/categories/programming/</link>
+      <link>https://fouen.github.io/categories/programming/</link>
       <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/programming/</guid>
+      <guid>https://fouen.github.io/categories/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>HackTheBox</title>
-      <link>http://localhost:1313/categories/hackthebox/</link>
+      <link>https://fouen.github.io/categories/hackthebox/</link>
       <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/hackthebox/</guid>
+      <guid>https://fouen.github.io/categories/hackthebox/</guid>
       <description></description>
     </item>
     <item>
       <title>ctf</title>
-      <link>http://localhost:1313/categories/ctf/</link>
+      <link>https://fouen.github.io/categories/ctf/</link>
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ctf/</guid>
+      <guid>https://fouen.github.io/categories/ctf/</guid>
       <description></description>
     </item>
     <item>
       <title>Portswigger Labs</title>
-      <link>http://localhost:1313/categories/portswigger/</link>
+      <link>https://fouen.github.io/categories/portswigger/</link>
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/portswigger/</guid>
+      <guid>https://fouen.github.io/categories/portswigger/</guid>
       <description></description>
     </item>
   </channel>
