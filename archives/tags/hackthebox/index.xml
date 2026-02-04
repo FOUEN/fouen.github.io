@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hackthebox on Fouen</title>
+    <link>https://fouen.github.io/tags/hackthebox/</link>
+    <description>Recent content in Hackthebox on Fouen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://fouen.github.io/tags/hackthebox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mantis</title>
+      <link>https://fouen.github.io/post/old/hackthebox/mantis/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://fouen.github.io/post/old/hackthebox/mantis/</guid>
+      <description>&lt;h2 id=&#34;reconocimiento&#34;&gt;&#xD;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#reconocimiento&#34;&gt;&lt;/a&gt;&#xD;&#xA;Reconocimiento&#xD;&#xA;&lt;/h2&gt;&lt;h3 id=&#34;nmap&#34;&gt;&#xD;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#nmap&#34;&gt;&lt;/a&gt;&#xD;&#xA;Nmap&#xD;&#xA;&lt;/h3&gt;&lt;p&gt;Escaneamos la maquina para ver que puertos tiene abiertos:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nmap -p- --open --min-rate &lt;span style=&#34;color:#ae81ff&#34;&gt;5000&lt;/span&gt; -Pn -n 10.10.11.8&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;PORT      STATE SERVICE&#xD;&#xA;53/tcp    open  domain&#xD;&#xA;88/tcp    open  kerberos-sec&#xD;&#xA;135/tcp   open  msrpc&#xD;&#xA;139/tcp   open  netbios-ssn&#xD;&#xA;389/tcp   open  ldap&#xD;&#xA;445/tcp   open  microsoft-ds&#xD;&#xA;464/tcp   open  kpasswd5&#xD;&#xA;593/tcp   open  http-rpc-epmap&#xD;&#xA;636/tcp   open  ldapssl&#xD;&#xA;1337/tcp  open  waste&#xD;&#xA;1433/tcp  open  ms-sql-s&#xD;&#xA;3268/tcp  open  globalcatLDAP&#xD;&#xA;3269/tcp  open  globalcatLDAPssl&#xD;&#xA;5722/tcp  open  msdfsr&#xD;&#xA;8080/tcp  open  http-proxy&#xD;&#xA;9389/tcp  open  adws&#xD;&#xA;47001/tcp open  winrm&#xD;&#xA;49152/tcp open  unknown&#xD;&#xA;49153/tcp open  unknown&#xD;&#xA;49154/tcp open  unknown&#xD;&#xA;49155/tcp open  unknown&#xD;&#xA;49157/tcp open  unknown&#xD;&#xA;49158/tcp open  unknown&#xD;&#xA;49167/tcp open  unknown&#xD;&#xA;49172/tcp open  unknown&#xD;&#xA;49173/tcp open  unknown&#xD;&#xA;50255/tcp open  unknown&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;http&#34;&gt;&#xD;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#http&#34;&gt;&lt;/a&gt;&#xD;&#xA;HTTP&#xD;&#xA;&lt;/h3&gt;&lt;p&gt;En el puerto &lt;code&gt;1337&lt;/code&gt; parece que hay alojada una web:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
